@@ -18,7 +18,7 @@ def GPUOptics(train_fvs, max_dist, version_optics, xi=0.05, min_samples=5):
 
 	# Executing OPTCS algortithm based on GPU and heap
 	print('Running OPTICS script ...')
-	bash_command = "./optics_backup/GOPTICS/goptics %f %d %s %d %d 1 %s" % (max_dist, min_samples, train_filename, 
+	bash_command = "./optics/goptics %f %d %s %d %d 1 %s" % (max_dist, min_samples, train_filename, 
 																	num_samples, dim, orderedPoints_filename)
 	os.system(bash_command)
 	
