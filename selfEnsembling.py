@@ -35,16 +35,8 @@ np.random.seed(12)
 torch.manual_seed(12)
 cudnn.deterministic = True
 
-
-# Market -> Duke (osnet_x1_0): 64.6/79.1 (0.1), 64.8/78.8 (0.09), 65.5/79.4 (0.08), 65.6/79.9(0.07), 65.7/79.6(0.06), 65.8/80.0 (0.05)
-# 64.8/79.3 (0.04), 63.9/79.1 (0.03), 63.6/78.6 (0.02), 61.1/77.0 (0.01)
-
-# Duke -> Market (osnet_x1_0): 	
-
-
 def main(gpu_ids, source, target, dir_name, model_name, reliability_path, version, rerank):
 
-	############================ CHANGED ON SIGMOID ON TMUX A -T 2 ================############ 
 	os.environ["CUDA_VISIBLE_DEVICES"] = gpu_ids
 	os.environ["HDF5_USE_FILE_LOCKING"] = "FALSE"
 	print("Number of GPU's: ", torch.cuda.device_count())
@@ -75,7 +67,7 @@ def main(gpu_ids, source, target, dir_name, model_name, reliability_path, versio
 	t0 = time.time()
 	trained_models = []
 
-	number_of_models = 50 # Best for Duke -> Market
+	number_of_models = 50 
 	count_models = 0
 
 	model_filenames = []
