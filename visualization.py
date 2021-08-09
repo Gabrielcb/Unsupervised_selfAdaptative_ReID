@@ -234,7 +234,7 @@ def main(gpu_ids, source, target, model_name, model_path):
 
 		# Transformations to create the grid of images
 		imgPIL_query_pad_color = Pad(5, fill=(0,0,200))(imgPIL_query) # Blue around query image
-		imgPIL_query_pad_for_space = Pad(5, fill=255)(imgPIL_query_pad_color)
+		imgPIL_query_pad_for_space = Pad(5, fill=(255, 255, 255))(imgPIL_query_pad_color)
 		grid.paste(imgPIL_query_pad_for_space, box=(0,0))
 
 		Fi = featmap_queries[query_idx]
@@ -263,11 +263,11 @@ def main(gpu_ids, source, target, model_name, model_path):
 			if correct_match:
 				# Pad correct matches with green 
 				activated_regions_pad_by_color_match = Pad(5, fill=(0,190,0))(activated_regions)
-				activated_regions_pad_for_space = Pad(5, fill=0)(activated_regions_pad_by_color_match)
+				activated_regions_pad_for_space = Pad(5, fill=(255, 255, 255))(activated_regions_pad_by_color_match)
 			else:
 				# Pad incorrect matches with green 
 				activated_regions_pad_by_color_match = Pad(5, fill=(197,0,0))(activated_regions)
-				activated_regions_pad_for_space = Pad(5, fill=0)(activated_regions_pad_by_color_match)
+				activated_regions_pad_for_space = Pad(5, fill=(255, 255, 255))(activated_regions_pad_by_color_match)
 
 			grid.paste(activated_regions_pad_for_space, box=(rank*w_image, 0))
 			rank += 1

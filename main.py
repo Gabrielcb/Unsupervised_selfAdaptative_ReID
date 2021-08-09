@@ -37,7 +37,7 @@ def main(gpu_ids, current_lr, xi_value, source, target, source_model_name, dir_t
 
 	os.environ["CUDA_VISIBLE_DEVICES"] = gpu_ids
 	os.environ["HDF5_USE_FILE_LOCKING"] = "FALSE"
-	print(torch.cuda.device_count())
+	print("Number of GPU's:", torch.cuda.device_count())
 
 	if len(gpu_ids) > 1:
 		gpu_index = 1
