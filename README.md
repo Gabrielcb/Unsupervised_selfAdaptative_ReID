@@ -9,6 +9,13 @@ The following libraries must be downloaded:
 * Pytorch 1.4.0
 * Torchvision 0.5.0
 
+Hardware requirements:
+* GPU: GTX 1080 Ti
+* Driver Version: 465.19.01    
+* CUDA Version: 11.3
+
+OBS: Different hardware or library versions might result in different results published on the paper
+
 ## Environment setup 
 
 1. Download the available docker image and start the container on iteration mode by following command:
