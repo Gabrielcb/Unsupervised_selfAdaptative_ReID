@@ -47,7 +47,7 @@ def main(gpu_ids, source, target, dir_name, model_name, reliability_path, versio
 	############================ CHANGED ON SIGMOID ON TMUX A -T 2 ================############ 
 	os.environ["CUDA_VISIBLE_DEVICES"] = gpu_ids
 	os.environ["HDF5_USE_FILE_LOCKING"] = "FALSE"
-	print(torch.cuda.device_count())
+	print("Number of GPU's: ", torch.cuda.device_count())
 
 	if len(gpu_ids) > 1:
 		gpu_index = 1
