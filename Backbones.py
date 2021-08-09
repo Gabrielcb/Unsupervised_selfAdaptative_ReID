@@ -23,9 +23,9 @@ def getBackbone(source, source_model_name):
 		model_source = ResNet50ReID(model_source)
 
 		if source == "Market":
-			state_dict_meb = torch.load("MEB-Net/logs/market1501TOmarket1501/resnet50-pretrain/model_best.pth.tar")["state_dict"]
+			state_dict_meb = torch.load("pretrained_models/resnet50_Market.pth.tar")["state_dict"]
 		elif source == "Duke":
-			state_dict_meb = torch.load("MEB-Net/logs/dukemtmcTOdukemtmc/resnet50-pretrain/model_best.pth.tar")["state_dict"]
+			state_dict_meb = torch.load("pretrained_models/resnet50_Duke.pth.tar")["state_dict"]
 		else:
 			return model_source
 
@@ -45,9 +45,9 @@ def getBackbone(source, source_model_name):
 		model_source = DenseNet121ReID(model_source)
 		
 		if source == "Market":
-			state_dict_meb = torch.load("MEB-Net/logs/market1501TOmarket1501/densenet-pretrain/model_best.pth.tar")["state_dict"]
+			state_dict_meb = torch.load("pretrained_models/densenet121_Market.pth.tar")["state_dict"]
 		elif source == "Duke":
-			state_dict_meb = torch.load("MEB-Net/logs/dukemtmcTOdukemtmc/densenet-pretrain/model_best.pth.tar")["state_dict"]
+			state_dict_meb = torch.load("pretrained_models/densenet121_Duke.pth.tar")["state_dict"]
 		else:
 			return model_source
 
@@ -66,9 +66,9 @@ def getBackbone(source, source_model_name):
 	elif source_model_name == 'osnet_x1_0': 
 
 		if source == "Market":
-			path_to_source_model = "/home/gbertocco/Doctorate/dejavu/log/osnet_x1_0_market1501_softmax_cosinelr/model.pth.tar-90"
+			path_to_source_model = "pretrained_models/osnet_Market.pth.tar"
 		elif source == "Duke":
-			path_to_source_model = "/home/gbertocco/Doctorate/dejavu/log/osnet_x1_0_duke2market_softmax/model.pth.tar-100"
+			path_to_source_model = "pretrained_models/osnet_Duke.pth.tar"
 		else:
 			model_source = OSNETReID(model_source)
 			return model_source
