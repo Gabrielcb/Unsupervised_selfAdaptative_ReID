@@ -1,0 +1,68 @@
+Number of GPU's:  1
+GPU index: 0
+Successfully loaded imagenet pretrained weights from "/root/.cache/torch/checkpoints/osnet_x1_0_imagenet.pth"
+** The following layers are discarded due to unmatched keys or layer size: ['classifier.weight', 'classifier.bias']
+model_0_MarketToDuke_osnet_x1_0_example.h5
+model_1_MarketToDuke_osnet_x1_0_example.h5
+model_2_MarketToDuke_osnet_x1_0_example.h5
+model_3_MarketToDuke_osnet_x1_0_example.h5
+model_4_MarketToDuke_osnet_x1_0_example.h5
+model_5_MarketToDuke_osnet_x1_0_example.h5
+model_6_MarketToDuke_osnet_x1_0_example.h5
+model_7_MarketToDuke_osnet_x1_0_example.h5
+model_8_MarketToDuke_osnet_x1_0_example.h5
+model_9_MarketToDuke_osnet_x1_0_example.h5
+model_10_MarketToDuke_osnet_x1_0_example.h5
+model_11_MarketToDuke_osnet_x1_0_example.h5
+model_12_MarketToDuke_osnet_x1_0_example.h5
+model_13_MarketToDuke_osnet_x1_0_example.h5
+model_14_MarketToDuke_osnet_x1_0_example.h5
+model_15_MarketToDuke_osnet_x1_0_example.h5
+model_16_MarketToDuke_osnet_x1_0_example.h5
+model_17_MarketToDuke_osnet_x1_0_example.h5
+model_18_MarketToDuke_osnet_x1_0_example.h5
+model_19_MarketToDuke_osnet_x1_0_example.h5
+model_20_MarketToDuke_osnet_x1_0_example.h5
+model_21_MarketToDuke_osnet_x1_0_example.h5
+model_22_MarketToDuke_osnet_x1_0_example.h5
+model_23_MarketToDuke_osnet_x1_0_example.h5
+model_24_MarketToDuke_osnet_x1_0_example.h5
+model_25_MarketToDuke_osnet_x1_0_example.h5
+model_26_MarketToDuke_osnet_x1_0_example.h5
+model_27_MarketToDuke_osnet_x1_0_example.h5
+model_28_MarketToDuke_osnet_x1_0_example.h5
+model_29_MarketToDuke_osnet_x1_0_example.h5
+model_30_MarketToDuke_osnet_x1_0_example.h5
+model_31_MarketToDuke_osnet_x1_0_example.h5
+model_32_MarketToDuke_osnet_x1_0_example.h5
+model_33_MarketToDuke_osnet_x1_0_example.h5
+model_34_MarketToDuke_osnet_x1_0_example.h5
+model_35_MarketToDuke_osnet_x1_0_example.h5
+model_36_MarketToDuke_osnet_x1_0_example.h5
+model_37_MarketToDuke_osnet_x1_0_example.h5
+model_38_MarketToDuke_osnet_x1_0_example.h5
+model_39_MarketToDuke_osnet_x1_0_example.h5
+model_40_MarketToDuke_osnet_x1_0_example.h5
+model_41_MarketToDuke_osnet_x1_0_example.h5
+model_42_MarketToDuke_osnet_x1_0_example.h5
+model_43_MarketToDuke_osnet_x1_0_example.h5
+model_44_MarketToDuke_osnet_x1_0_example.h5
+model_45_MarketToDuke_osnet_x1_0_example.h5
+model_46_MarketToDuke_osnet_x1_0_example.h5
+model_47_MarketToDuke_osnet_x1_0_example.h5
+model_48_MarketToDuke_osnet_x1_0_example.h5
+model_49_MarketToDuke_osnet_x1_0_example.h5
+565
+Number of models: 50
+Self-Ensebling performed in 7.27 seconds
+Validating Model Result on Duke ...
+Features extracted in 5.22 seconds
+Features extracted in 24.37 seconds
+Computing CMC and mAP ...
+** Results **           # Same of the results reported on Table V on "OSNet (fusion)" in Market -> Duke scenario on paper
+mAP: 67.25%           
+CMC curve
+Rank-1  : 82.05%
+Rank-5  : 90.53%
+Rank-10 : 92.37%
+Rank-20 : 93.49%

@@ -1,0 +1,2681 @@
+Number of GPU's: 2
+Successfully loaded imagenet pretrained weights from "/root/.cache/torch/checkpoints/osnet_x1_0_imagenet.pth"
+** The following layers are discarded due to unmatched keys or layer size: ['classifier.weight', 'classifier.bias']
+Training Size: (16522, 3)
+Gallery Size: (17661, 3)
+Query Size: (2228, 3)
+Validating on Duke ...
+Features extracted in 5.47 seconds
+Features extracted in 23.97 seconds
+Computing CMC and mAP ...
+** Results **
+mAP: 16.95%
+CMC curve
+Rank-1  : 30.88%
+Rank-5  : 46.50%
+Rank-10 : 52.96%
+Rank-20 : 59.92%
+###============ Iteration number 1/50 ============###
+GPU MONTAGEM	16.153745
+GPU ORDENACAO	4.318154
+GPU OPTICS	63.158593
+GPU TOTAL	86.234209
+
+Features extracted in 22.39 seconds
+Running OPTICS script ...
+0.76 clusters with one camera were removed
+Clustering and Filtering time: 104.10 seconds
+Ratio of reliable data from target: 0.078683
+#======= Fine-tuning on epoch 0 ======= #
+Features extracted in 4.12 seconds
+-----------
+Creating Triplets ...
+Number of classes: 139
+Final Loss Value on Epoch: 0.078170
+#======= Fine-tuning on epoch 1 ======= #
+Features extracted in 4.10 seconds
+-----------
+Creating Triplets ...
+Number of classes: 139
+Final Loss Value on Epoch: 0.046773
+#======= Fine-tuning on epoch 2 ======= #
+Features extracted in 4.14 seconds
+-----------
+Creating Triplets ...
+Number of classes: 139
+Final Loss Value on Epoch: 0.026986
+#======= Fine-tuning on epoch 3 ======= #
+Features extracted in 4.08 seconds
+-----------
+Creating Triplets ...
+Number of classes: 139
+Final Loss Value on Epoch: 0.021293
+#======= Fine-tuning on epoch 4 ======= #
+Features extracted in 4.17 seconds
+-----------
+Creating Triplets ...
+Number of classes: 139
+Final Loss Value on Epoch: 0.019439
+Finetuning time: 75.66 seconds
+Features extracted in 5.37 seconds
+Features extracted in 23.78 seconds
+Computing CMC and mAP ...
+** Results **
+mAP: 34.95%
+CMC curve
+Rank-1  : 55.03%
+Rank-5  : 69.03%
+Rank-10 : 73.52%
+Rank-20 : 78.55%
+Iteration time: 239.07 seconds
+###============ Iteration number 2/50 ============###
+GPU MONTAGEM	16.209777
+GPU ORDENACAO	4.390489
+GPU OPTICS	62.938877
+GPU TOTAL	85.693305
+
+Features extracted in 22.31 seconds
+Running OPTICS script ...
+0.54 clusters with one camera were removed
+Clustering and Filtering time: 104.51 seconds
+Ratio of reliable data from target: 0.218133
+#======= Fine-tuning on epoch 0 ======= #
+Features extracted in 6.99 seconds
+-----------
+Creating Triplets ...
+Number of classes: 326
+Final Loss Value on Epoch: 0.059213
+#======= Fine-tuning on epoch 1 ======= #
+Features extracted in 6.99 seconds
+-----------
+Creating Triplets ...
+Number of classes: 326
+Final Loss Value on Epoch: 0.030095
+#======= Fine-tuning on epoch 2 ======= #
+Features extracted in 7.39 seconds
+-----------
+Creating Triplets ...
+Number of classes: 326
+Final Loss Value on Epoch: 0.022333
+#======= Fine-tuning on epoch 3 ======= #
+Features extracted in 7.52 seconds
+-----------
+Creating Triplets ...
+Number of classes: 326
+Final Loss Value on Epoch: 0.015804
+#======= Fine-tuning on epoch 4 ======= #
+Features extracted in 7.10 seconds
+-----------
+Creating Triplets ...
+Number of classes: 326
+Final Loss Value on Epoch: 0.013343
+Finetuning time: 200.39 seconds
+Features extracted in 5.41 seconds
+Features extracted in 23.82 seconds
+Computing CMC and mAP ...
+** Results **
+mAP: 45.44%
+CMC curve
+Rank-1  : 64.45%
+Rank-5  : 77.65%
+Rank-10 : 81.55%
+Rank-20 : 84.61%
+Iteration time: 364.23 seconds
+###============ Iteration number 3/50 ============###
+GPU MONTAGEM	16.181923
+GPU ORDENACAO	4.271759
+GPU OPTICS	62.851857
+GPU TOTAL	85.724556
+
+Features extracted in 22.46 seconds
+Running OPTICS script ...
+0.40 clusters with one camera were removed
+Clustering and Filtering time: 104.75 seconds
+Ratio of reliable data from target: 0.350866
+#======= Fine-tuning on epoch 0 ======= #
+Features extracted in 9.57 seconds
+-----------
+Creating Triplets ...
+Number of classes: 482
+Final Loss Value on Epoch: 0.049522
+#======= Fine-tuning on epoch 1 ======= #
+Features extracted in 9.75 seconds
+-----------
+Creating Triplets ...
+Number of classes: 482
+Final Loss Value on Epoch: 0.028305
+#======= Fine-tuning on epoch 2 ======= #
+Features extracted in 9.77 seconds
+-----------
+Creating Triplets ...
+Number of classes: 482
+Final Loss Value on Epoch: 0.020252
+#======= Fine-tuning on epoch 3 ======= #
+Features extracted in 10.08 seconds
+-----------
+Creating Triplets ...
+Number of classes: 482
+Final Loss Value on Epoch: 0.017717
+#======= Fine-tuning on epoch 4 ======= #
+Features extracted in 9.52 seconds
+-----------
+Creating Triplets ...
+Number of classes: 482
+Final Loss Value on Epoch: 0.015026
+Finetuning time: 324.52 seconds
+Features extracted in 5.40 seconds
+Features extracted in 24.12 seconds
+Computing CMC and mAP ...
+** Results **
+mAP: 52.14%
+CMC curve
+Rank-1  : 71.59%
+Rank-5  : 82.05%
+Rank-10 : 85.14%
+Rank-20 : 87.79%
+Iteration time: 489.30 seconds
+###============ Iteration number 4/50 ============###
+GPU MONTAGEM	16.110073
+GPU ORDENACAO	4.274050
+GPU OPTICS	63.117618
+GPU TOTAL	85.912200
+
+Features extracted in 22.53 seconds
+Running OPTICS script ...
+0.32 clusters with one camera were removed
+Clustering and Filtering time: 105.18 seconds
+Ratio of reliable data from target: 0.422406
+#======= Fine-tuning on epoch 0 ======= #
+Features extracted in 11.57 seconds
+-----------
+Creating Triplets ...
+Number of classes: 558
+Final Loss Value on Epoch: 0.033889
+#======= Fine-tuning on epoch 1 ======= #
+Features extracted in 11.33 seconds
+-----------
+Creating Triplets ...
+Number of classes: 558
+Final Loss Value on Epoch: 0.022407
+#======= Fine-tuning on epoch 2 ======= #
+Features extracted in 11.32 seconds
+-----------
+Creating Triplets ...
+Number of classes: 558
+Final Loss Value on Epoch: 0.019394
+#======= Fine-tuning on epoch 3 ======= #
+Features extracted in 10.89 seconds
+-----------
+Creating Triplets ...
+Number of classes: 558
+Final Loss Value on Epoch: 0.014810
+#======= Fine-tuning on epoch 4 ======= #
+Features extracted in 11.04 seconds
+-----------
+Creating Triplets ...
+Number of classes: 558
+Final Loss Value on Epoch: 0.012877
+Finetuning time: 403.89 seconds
+Features extracted in 5.29 seconds
+Features extracted in 24.14 seconds
+Computing CMC and mAP ...
+** Results **
+mAP: 54.88%
+CMC curve
+Rank-1  : 74.15%
+Rank-5  : 83.48%
+Rank-10 : 86.45%
+Rank-20 : 89.32%
+Iteration time: 569.03 seconds
+###============ Iteration number 5/50 ============###
+GPU MONTAGEM	16.380655
+GPU ORDENACAO	4.341056
+GPU OPTICS	63.661534
+GPU TOTAL	87.051775
+
+Features extracted in 22.63 seconds
+Running OPTICS script ...
+0.29 clusters with one camera were removed
+Clustering and Filtering time: 105.74 seconds
+Ratio of reliable data from target: 0.454182
+#======= Fine-tuning on epoch 0 ======= #
+Features extracted in 11.70 seconds
+-----------
+Creating Triplets ...
+Number of classes: 589
+Final Loss Value on Epoch: 0.024791
+#======= Fine-tuning on epoch 1 ======= #
+Features extracted in 12.28 seconds
+-----------
+Creating Triplets ...
+Number of classes: 589
+Final Loss Value on Epoch: 0.017902
+#======= Fine-tuning on epoch 2 ======= #
+Features extracted in 12.04 seconds
+-----------
+Creating Triplets ...
+Number of classes: 589
+Final Loss Value on Epoch: 0.016255
+#======= Fine-tuning on epoch 3 ======= #
+Features extracted in 12.23 seconds
+-----------
+Creating Triplets ...
+Number of classes: 589
+Final Loss Value on Epoch: 0.012707
+#======= Fine-tuning on epoch 4 ======= #
+Features extracted in 11.74 seconds
+-----------
+Creating Triplets ...
+Number of classes: 589
+Final Loss Value on Epoch: 0.013305
+Finetuning time: 442.94 seconds
+Features extracted in 5.61 seconds
+Features extracted in 24.01 seconds
+Computing CMC and mAP ...
+** Results **
+mAP: 56.52%
+CMC curve
+Rank-1  : 74.33%
+Rank-5  : 84.65%
+Rank-10 : 87.39%
+Rank-20 : 90.22%
+Iteration time: 608.96 seconds
+###============ Iteration number 6/50 ============###
+GPU MONTAGEM	16.158011
+GPU ORDENACAO	4.346458
+GPU OPTICS	63.613271
+GPU TOTAL	86.252895
+
+Features extracted in 22.39 seconds
+Running OPTICS script ...
+0.32 clusters with one camera were removed
+Clustering and Filtering time: 106.11 seconds
+Ratio of reliable data from target: 0.488016
+#======= Fine-tuning on epoch 0 ======= #
+Features extracted in 12.21 seconds
+-----------
+Creating Triplets ...
+Number of classes: 603
+Final Loss Value on Epoch: 0.026064
+#======= Fine-tuning on epoch 1 ======= #
+Features extracted in 12.43 seconds
+-----------
+Creating Triplets ...
+Number of classes: 603
+Final Loss Value on Epoch: 0.018403
+#======= Fine-tuning on epoch 2 ======= #
+Features extracted in 12.79 seconds
+-----------
+Creating Triplets ...
+Number of classes: 603
+Final Loss Value on Epoch: 0.014356
+#======= Fine-tuning on epoch 3 ======= #
+Features extracted in 12.45 seconds
+-----------
+Creating Triplets ...
+Number of classes: 603
+Final Loss Value on Epoch: 0.013332
+#======= Fine-tuning on epoch 4 ======= #
+Features extracted in 12.32 seconds
+-----------
+Creating Triplets ...
+Number of classes: 603
+Final Loss Value on Epoch: 0.011436
+Finetuning time: 474.84 seconds
+Features extracted in 5.59 seconds
+Features extracted in 23.49 seconds
+Computing CMC and mAP ...
+** Results **
+mAP: 58.24%
+CMC curve
+Rank-1  : 77.15%
+Rank-5  : 86.27%
+Rank-10 : 88.91%
+Rank-20 : 90.98%
+Iteration time: 640.11 seconds
+###============ Iteration number 7/50 ============###
+GPU MONTAGEM	16.103187
+GPU ORDENACAO	4.262382
+GPU OPTICS	63.542492
+GPU TOTAL	86.303537
+
+Features extracted in 21.97 seconds
+Running OPTICS script ...
+0.27 clusters with one camera were removed
+Clustering and Filtering time: 105.28 seconds
+Ratio of reliable data from target: 0.495097
+#======= Fine-tuning on epoch 0 ======= #
+Features extracted in 12.04 seconds
+-----------
+Creating Triplets ...
+Number of classes: 614
+Final Loss Value on Epoch: 0.019206
+#======= Fine-tuning on epoch 1 ======= #
+Features extracted in 12.34 seconds
+-----------
+Creating Triplets ...
+Number of classes: 614
+Final Loss Value on Epoch: 0.013488
+#======= Fine-tuning on epoch 2 ======= #
+Features extracted in 12.76 seconds
+-----------
+Creating Triplets ...
+Number of classes: 614
+Final Loss Value on Epoch: 0.012536
+#======= Fine-tuning on epoch 3 ======= #
+Features extracted in 12.62 seconds
+-----------
+Creating Triplets ...
+Number of classes: 614
+Final Loss Value on Epoch: 0.011931
+#======= Fine-tuning on epoch 4 ======= #
+Features extracted in 12.81 seconds
+-----------
+Creating Triplets ...
+Number of classes: 614
+Final Loss Value on Epoch: 0.010227
+Finetuning time: 483.29 seconds
+Features extracted in 5.60 seconds
+Features extracted in 23.67 seconds
+Computing CMC and mAP ...
+** Results **
+mAP: 58.69%
+CMC curve
+Rank-1  : 77.11%
+Rank-5  : 86.13%
+Rank-10 : 89.45%
+Rank-20 : 91.47%
+Iteration time: 647.48 seconds
+###============ Iteration number 8/50 ============###
+GPU MONTAGEM	16.152979
+GPU ORDENACAO	4.422024
+GPU OPTICS	66.136829
+GPU TOTAL	89.140841
+
+Features extracted in 22.22 seconds
+Running OPTICS script ...
+0.26 clusters with one camera were removed
+Clustering and Filtering time: 108.14 seconds
+Ratio of reliable data from target: 0.513800
+#======= Fine-tuning on epoch 0 ======= #
+Features extracted in 12.47 seconds
+-----------
+Creating Triplets ...
+Number of classes: 628
+Final Loss Value on Epoch: 0.017309
+#======= Fine-tuning on epoch 1 ======= #
+Features extracted in 13.34 seconds
+-----------
+Creating Triplets ...
+Number of classes: 628
+Final Loss Value on Epoch: 0.014325
+#======= Fine-tuning on epoch 2 ======= #
+Features extracted in 13.02 seconds
+-----------
+Creating Triplets ...
+Number of classes: 628
+Final Loss Value on Epoch: 0.012604
+#======= Fine-tuning on epoch 3 ======= #
+Features extracted in 13.03 seconds
+-----------
+Creating Triplets ...
+Number of classes: 628
+Final Loss Value on Epoch: 0.012012
+#======= Fine-tuning on epoch 4 ======= #
+Features extracted in 13.60 seconds
+-----------
+Creating Triplets ...
+Number of classes: 628
+Final Loss Value on Epoch: 0.010269
+Finetuning time: 494.47 seconds
+Features extracted in 5.54 seconds
+Features extracted in 23.97 seconds
+Computing CMC and mAP ...
+** Results **
+mAP: 58.21%
+CMC curve
+Rank-1  : 75.99%
+Rank-5  : 85.82%
+Rank-10 : 88.82%
+Rank-20 : 91.16%
+Iteration time: 662.59 seconds
+###============ Iteration number 9/50 ============###
+GPU MONTAGEM	16.113182
+GPU ORDENACAO	4.519695
+GPU OPTICS	64.283850
+GPU TOTAL	87.339084
+
+Features extracted in 22.46 seconds
+Running OPTICS script ...
+0.26 clusters with one camera were removed
+Clustering and Filtering time: 106.20 seconds
+Ratio of reliable data from target: 0.526026
+#======= Fine-tuning on epoch 0 ======= #
+Features extracted in 13.26 seconds
+-----------
+Creating Triplets ...
+Number of classes: 640
+Final Loss Value on Epoch: 0.019542
+#======= Fine-tuning on epoch 1 ======= #
+Features extracted in 13.11 seconds
+-----------
+Creating Triplets ...
+Number of classes: 640
+Final Loss Value on Epoch: 0.013235
+#======= Fine-tuning on epoch 2 ======= #
+Features extracted in 13.66 seconds
+-----------
+Creating Triplets ...
+Number of classes: 640
+Final Loss Value on Epoch: 0.011182
+#======= Fine-tuning on epoch 3 ======= #
+Features extracted in 12.87 seconds
+-----------
+Creating Triplets ...
+Number of classes: 640
+Final Loss Value on Epoch: 0.011044
+#======= Fine-tuning on epoch 4 ======= #
+Features extracted in 13.52 seconds
+-----------
+Creating Triplets ...
+Number of classes: 640
+Final Loss Value on Epoch: 0.009883
+Finetuning time: 520.92 seconds
+Features extracted in 5.30 seconds
+Features extracted in 24.16 seconds
+Computing CMC and mAP ...
+** Results **
+mAP: 60.01%
+CMC curve
+Rank-1  : 77.83%
+Rank-5  : 86.49%
+Rank-10 : 89.18%
+Rank-20 : 91.88%
+Iteration time: 686.80 seconds
+###============ Iteration number 10/50 ============###
+GPU MONTAGEM	16.032651
+GPU ORDENACAO	4.309079
+GPU OPTICS	64.450142
+GPU TOTAL	87.221498
+
+Features extracted in 22.30 seconds
+Running OPTICS script ...
+0.26 clusters with one camera were removed
+Clustering and Filtering time: 107.05 seconds
+Ratio of reliable data from target: 0.515797
+#======= Fine-tuning on epoch 0 ======= #
+Features extracted in 12.70 seconds
+-----------
+Creating Triplets ...
+Number of classes: 643
+Final Loss Value on Epoch: 0.013821
+#======= Fine-tuning on epoch 1 ======= #
+Features extracted in 13.07 seconds
+-----------
+Creating Triplets ...
+Number of classes: 643
+Final Loss Value on Epoch: 0.011547
+#======= Fine-tuning on epoch 2 ======= #
+Features extracted in 12.94 seconds
+-----------
+Creating Triplets ...
+Number of classes: 643
+Final Loss Value on Epoch: 0.009193
+#======= Fine-tuning on epoch 3 ======= #
+Features extracted in 12.89 seconds
+-----------
+Creating Triplets ...
+Number of classes: 643
+Final Loss Value on Epoch: 0.009483
+#======= Fine-tuning on epoch 4 ======= #
+Features extracted in 13.26 seconds
+-----------
+Creating Triplets ...
+Number of classes: 643
+Final Loss Value on Epoch: 0.008995
+Finetuning time: 504.15 seconds
+Features extracted in 5.53 seconds
+Features extracted in 23.79 seconds
+Computing CMC and mAP ...
+** Results **
+mAP: 59.81%
+CMC curve
+Rank-1  : 77.65%
+Rank-5  : 87.03%
+Rank-10 : 89.77%
+Rank-20 : 91.79%
+Iteration time: 670.65 seconds
+###============ Iteration number 11/50 ============###
+GPU MONTAGEM	16.187153
+GPU ORDENACAO	4.413645
+GPU OPTICS	65.829435
+GPU TOTAL	88.512649
+
+Features extracted in 22.17 seconds
+Running OPTICS script ...
+0.26 clusters with one camera were removed
+Clustering and Filtering time: 107.53 seconds
+Ratio of reliable data from target: 0.541581
+#======= Fine-tuning on epoch 0 ======= #
+Features extracted in 12.89 seconds
+-----------
+Creating Triplets ...
+Number of classes: 655
+Final Loss Value on Epoch: 0.014882
+#======= Fine-tuning on epoch 1 ======= #
+Features extracted in 13.48 seconds
+-----------
+Creating Triplets ...
+Number of classes: 655
+Final Loss Value on Epoch: 0.012052
+#======= Fine-tuning on epoch 2 ======= #
+Features extracted in 13.86 seconds
+-----------
+Creating Triplets ...
+Number of classes: 655
+Final Loss Value on Epoch: 0.010477
+#======= Fine-tuning on epoch 3 ======= #
+Features extracted in 13.78 seconds
+-----------
+Creating Triplets ...
+Number of classes: 655
+Final Loss Value on Epoch: 0.010018
+#======= Fine-tuning on epoch 4 ======= #
+Features extracted in 13.34 seconds
+-----------
+Creating Triplets ...
+Number of classes: 655
+Final Loss Value on Epoch: 0.009509
+Finetuning time: 522.27 seconds
+Features extracted in 5.22 seconds
+Features extracted in 23.09 seconds
+Computing CMC and mAP ...
+** Results **
+mAP: 58.38%
+CMC curve
+Rank-1  : 76.66%
+Rank-5  : 86.58%
+Rank-10 : 88.87%
+Rank-20 : 91.25%
+Iteration time: 687.90 seconds
+###============ Iteration number 12/50 ============###
+GPU MONTAGEM	16.118156
+GPU ORDENACAO	4.367723
+GPU OPTICS	68.368988
+GPU TOTAL	91.220044
+
+Features extracted in 22.20 seconds
+Running OPTICS script ...
+0.24 clusters with one camera were removed
+Clustering and Filtering time: 112.65 seconds
+Ratio of reliable data from target: 0.547210
+#======= Fine-tuning on epoch 0 ======= #
+Features extracted in 13.71 seconds
+-----------
+Creating Triplets ...
+Number of classes: 652
+Final Loss Value on Epoch: 0.012689
+#======= Fine-tuning on epoch 1 ======= #
+Features extracted in 13.35 seconds
+-----------
+Creating Triplets ...
+Number of classes: 652
+Final Loss Value on Epoch: 0.009675
+#======= Fine-tuning on epoch 2 ======= #
+Features extracted in 14.11 seconds
+-----------
+Creating Triplets ...
+Number of classes: 652
+Final Loss Value on Epoch: 0.009117
+#======= Fine-tuning on epoch 3 ======= #
+Features extracted in 13.95 seconds
+-----------
+Creating Triplets ...
+Number of classes: 652
+Final Loss Value on Epoch: 0.007758
+#======= Fine-tuning on epoch 4 ======= #
+Features extracted in 13.72 seconds
+-----------
+Creating Triplets ...
+Number of classes: 652
+Final Loss Value on Epoch: 0.008053
+Finetuning time: 537.15 seconds
+Features extracted in 5.46 seconds
+Features extracted in 23.50 seconds
+Computing CMC and mAP ...
+** Results **
+mAP: 59.66%
+CMC curve
+Rank-1  : 77.06%
+Rank-5  : 86.40%
+Rank-10 : 89.77%
+Rank-20 : 91.38%
+Iteration time: 708.62 seconds
+###============ Iteration number 13/50 ============###
+GPU MONTAGEM	16.128431
+GPU ORDENACAO	4.335459
+GPU OPTICS	70.489477
+GPU TOTAL	93.557927
+
+Features extracted in 22.01 seconds
+Running OPTICS script ...
+0.25 clusters with one camera were removed
+Clustering and Filtering time: 111.95 seconds
+Ratio of reliable data from target: 0.549994
+#======= Fine-tuning on epoch 0 ======= #
+Features extracted in 13.05 seconds
+-----------
+Creating Triplets ...
+Number of classes: 656
+Final Loss Value on Epoch: 0.011721
+#======= Fine-tuning on epoch 1 ======= #
+Features extracted in 13.08 seconds
+-----------
+Creating Triplets ...
+Number of classes: 656
+Final Loss Value on Epoch: 0.009707
+#======= Fine-tuning on epoch 2 ======= #
+Features extracted in 13.63 seconds
+-----------
+Creating Triplets ...
+Number of classes: 656
+Final Loss Value on Epoch: 0.008027
+#======= Fine-tuning on epoch 3 ======= #
+Features extracted in 13.70 seconds
+-----------
+Creating Triplets ...
+Number of classes: 656
+Final Loss Value on Epoch: 0.007351
+#======= Fine-tuning on epoch 4 ======= #
+Features extracted in 13.93 seconds
+-----------
+Creating Triplets ...
+Number of classes: 656
+Final Loss Value on Epoch: 0.007378
+Finetuning time: 536.69 seconds
+Features extracted in 5.49 seconds
+Features extracted in 23.34 seconds
+Computing CMC and mAP ...
+** Results **
+mAP: 60.82%
+CMC curve
+Rank-1  : 78.19%
+Rank-5  : 87.39%
+Rank-10 : 90.66%
+Rank-20 : 92.32%
+Iteration time: 707.04 seconds
+###============ Iteration number 14/50 ============###
+GPU MONTAGEM	16.096164
+GPU ORDENACAO	4.218351
+GPU OPTICS	65.399969
+GPU TOTAL	88.445608
+
+Features extracted in 21.94 seconds
+Running OPTICS script ...
+0.25 clusters with one camera were removed
+Clustering and Filtering time: 108.25 seconds
+Ratio of reliable data from target: 0.546120
+#======= Fine-tuning on epoch 0 ======= #
+Features extracted in 12.84 seconds
+-----------
+Creating Triplets ...
+Number of classes: 670
+Final Loss Value on Epoch: 0.011298
+#======= Fine-tuning on epoch 1 ======= #
+Features extracted in 12.99 seconds
+-----------
+Creating Triplets ...
+Number of classes: 670
+Final Loss Value on Epoch: 0.009084
+#======= Fine-tuning on epoch 2 ======= #
+Features extracted in 13.52 seconds
+-----------
+Creating Triplets ...
+Number of classes: 670
+Final Loss Value on Epoch: 0.008013
+#======= Fine-tuning on epoch 3 ======= #
+Features extracted in 13.32 seconds
+-----------
+Creating Triplets ...
+Number of classes: 670
+Final Loss Value on Epoch: 0.007563
+#======= Fine-tuning on epoch 4 ======= #
+Features extracted in 13.65 seconds
+-----------
+Creating Triplets ...
+Number of classes: 670
+Final Loss Value on Epoch: 0.007152
+Finetuning time: 528.43 seconds
+Features extracted in 5.19 seconds
+Features extracted in 23.54 seconds
+Computing CMC and mAP ...
+** Results **
+mAP: 60.42%
+CMC curve
+Rank-1  : 77.78%
+Rank-5  : 86.85%
+Rank-10 : 89.59%
+Rank-20 : 91.79%
+Iteration time: 694.83 seconds
+###============ Iteration number 15/50 ============###
+GPU MONTAGEM	16.334335
+GPU ORDENACAO	4.792597
+GPU OPTICS	64.338052
+GPU TOTAL	88.264127
+
+Features extracted in 22.03 seconds
+Running OPTICS script ...
+0.23 clusters with one camera were removed
+Clustering and Filtering time: 107.54 seconds
+Ratio of reliable data from target: 0.576262
+#======= Fine-tuning on epoch 0 ======= #
+Features extracted in 13.46 seconds
+-----------
+Creating Triplets ...
+Number of classes: 675
+Final Loss Value on Epoch: 0.011687
+#======= Fine-tuning on epoch 1 ======= #
+Features extracted in 13.89 seconds
+-----------
+Creating Triplets ...
+Number of classes: 675
+Final Loss Value on Epoch: 0.010190
+#======= Fine-tuning on epoch 2 ======= #
+Features extracted in 13.82 seconds
+-----------
+Creating Triplets ...
+Number of classes: 675
+Final Loss Value on Epoch: 0.008509
+#======= Fine-tuning on epoch 3 ======= #
+Features extracted in 14.28 seconds
+-----------
+Creating Triplets ...
+Number of classes: 675
+Final Loss Value on Epoch: 0.007350
+#======= Fine-tuning on epoch 4 ======= #
+Features extracted in 13.94 seconds
+-----------
+Creating Triplets ...
+Number of classes: 675
+Final Loss Value on Epoch: 0.006979
+Finetuning time: 573.03 seconds
+Features extracted in 5.39 seconds
+Features extracted in 23.51 seconds
+Computing CMC and mAP ...
+** Results **
+mAP: 60.32%
+CMC curve
+Rank-1  : 77.47%
+Rank-5  : 87.03%
+Rank-10 : 90.08%
+Rank-20 : 91.52%
+Iteration time: 739.54 seconds
+###============ Iteration number 16/50 ============###
+GPU MONTAGEM	16.483826
+GPU ORDENACAO	4.884705
+GPU OPTICS	65.830454
+GPU TOTAL	89.964985
+
+Features extracted in 22.47 seconds
+Running OPTICS script ...
+0.23 clusters with one camera were removed
+Clustering and Filtering time: 108.46 seconds
+Ratio of reliable data from target: 0.572751
+#======= Fine-tuning on epoch 0 ======= #
+Features extracted in 13.36 seconds
+-----------
+Creating Triplets ...
+Number of classes: 688
+Final Loss Value on Epoch: 0.010625
+#======= Fine-tuning on epoch 1 ======= #
+Features extracted in 13.53 seconds
+-----------
+Creating Triplets ...
+Number of classes: 688
+Final Loss Value on Epoch: 0.008209
+#======= Fine-tuning on epoch 2 ======= #
+Features extracted in 14.06 seconds
+-----------
+Creating Triplets ...
+Number of classes: 688
+Final Loss Value on Epoch: 0.006992
+#======= Fine-tuning on epoch 3 ======= #
+Features extracted in 13.84 seconds
+-----------
+Creating Triplets ...
+Number of classes: 688
+Final Loss Value on Epoch: 0.006773
+#======= Fine-tuning on epoch 4 ======= #
+Features extracted in 13.76 seconds
+-----------
+Creating Triplets ...
+Number of classes: 688
+Final Loss Value on Epoch: 0.006791
+Finetuning time: 551.84 seconds
+Features extracted in 5.49 seconds
+Features extracted in 23.55 seconds
+Computing CMC and mAP ...
+** Results **
+mAP: 60.40%
+CMC curve
+Rank-1  : 77.78%
+Rank-5  : 87.30%
+Rank-10 : 89.86%
+Rank-20 : 92.28%
+Iteration time: 719.55 seconds
+###============ Iteration number 17/50 ============###
+GPU MONTAGEM	16.199165
+GPU ORDENACAO	4.329348
+GPU OPTICS	67.394558
+GPU TOTAL	90.565264
+
+Features extracted in 22.21 seconds
+Running OPTICS script ...
+0.22 clusters with one camera were removed
+Clustering and Filtering time: 110.52 seconds
+Ratio of reliable data from target: 0.579046
+#======= Fine-tuning on epoch 0 ======= #
+Features extracted in 13.50 seconds
+-----------
+Creating Triplets ...
+Number of classes: 677
+Final Loss Value on Epoch: 0.009827
+#======= Fine-tuning on epoch 1 ======= #
+Features extracted in 13.81 seconds
+-----------
+Creating Triplets ...
+Number of classes: 677
+Final Loss Value on Epoch: 0.008124
+#======= Fine-tuning on epoch 2 ======= #
+Features extracted in 14.08 seconds
+-----------
+Creating Triplets ...
+Number of classes: 677
+Final Loss Value on Epoch: 0.008068
+#======= Fine-tuning on epoch 3 ======= #
+Features extracted in 14.42 seconds
+-----------
+Creating Triplets ...
+Number of classes: 677
+Final Loss Value on Epoch: 0.006764
+#======= Fine-tuning on epoch 4 ======= #
+Features extracted in 14.28 seconds
+-----------
+Creating Triplets ...
+Number of classes: 677
+Final Loss Value on Epoch: 0.007061
+Finetuning time: 575.62 seconds
+Features extracted in 5.35 seconds
+Features extracted in 24.11 seconds
+Computing CMC and mAP ...
+** Results **
+mAP: 61.16%
+CMC curve
+Rank-1  : 78.23%
+Rank-5  : 87.52%
+Rank-10 : 89.90%
+Rank-20 : 91.97%
+Iteration time: 745.53 seconds
+###============ Iteration number 18/50 ============###
+GPU MONTAGEM	16.173078
+GPU ORDENACAO	4.270527
+GPU OPTICS	68.475448
+GPU TOTAL	90.984351
+
+Features extracted in 22.73 seconds
+Running OPTICS script ...
+0.22 clusters with one camera were removed
+Clustering and Filtering time: 111.07 seconds
+Ratio of reliable data from target: 0.573901
+#======= Fine-tuning on epoch 0 ======= #
+Features extracted in 13.55 seconds
+-----------
+Creating Triplets ...
+Number of classes: 680
+Final Loss Value on Epoch: 0.009851
+#======= Fine-tuning on epoch 1 ======= #
+Features extracted in 13.97 seconds
+-----------
+Creating Triplets ...
+Number of classes: 680
+Final Loss Value on Epoch: 0.007247
+#======= Fine-tuning on epoch 2 ======= #
+Features extracted in 13.81 seconds
+-----------
+Creating Triplets ...
+Number of classes: 680
+Final Loss Value on Epoch: 0.006406
+#======= Fine-tuning on epoch 3 ======= #
+Features extracted in 14.39 seconds
+-----------
+Creating Triplets ...
+Number of classes: 680
+Final Loss Value on Epoch: 0.007165
+#======= Fine-tuning on epoch 4 ======= #
+Features extracted in 13.76 seconds
+-----------
+Creating Triplets ...
+Number of classes: 680
+Final Loss Value on Epoch: 0.007265
+Finetuning time: 566.44 seconds
+Features extracted in 5.49 seconds
+Features extracted in 23.86 seconds
+Computing CMC and mAP ...
+** Results **
+mAP: 60.28%
+CMC curve
+Rank-1  : 77.69%
+Rank-5  : 86.94%
+Rank-10 : 90.31%
+Rank-20 : 92.77%
+Iteration time: 737.32 seconds
+###============ Iteration number 19/50 ============###
+GPU MONTAGEM	16.139275
+GPU ORDENACAO	4.258992
+GPU OPTICS	65.522757
+GPU TOTAL	87.969418
+
+Features extracted in 22.33 seconds
+Running OPTICS script ...
+0.22 clusters with one camera were removed
+Clustering and Filtering time: 108.32 seconds
+Ratio of reliable data from target: 0.587701
+#======= Fine-tuning on epoch 0 ======= #
+Features extracted in 13.80 seconds
+-----------
+Creating Triplets ...
+Number of classes: 688
+Final Loss Value on Epoch: 0.009479
+#======= Fine-tuning on epoch 1 ======= #
+Features extracted in 14.04 seconds
+-----------
+Creating Triplets ...
+Number of classes: 688
+Final Loss Value on Epoch: 0.007598
+#======= Fine-tuning on epoch 2 ======= #
+Features extracted in 13.83 seconds
+-----------
+Creating Triplets ...
+Number of classes: 688
+Final Loss Value on Epoch: 0.007057
+#======= Fine-tuning on epoch 3 ======= #
+Features extracted in 14.50 seconds
+-----------
+Creating Triplets ...
+Number of classes: 688
+Final Loss Value on Epoch: 0.006587
+#======= Fine-tuning on epoch 4 ======= #
+Features extracted in 14.09 seconds
+-----------
+Creating Triplets ...
+Number of classes: 688
+Final Loss Value on Epoch: 0.005115
+Finetuning time: 577.17 seconds
+Features extracted in 5.41 seconds
+Features extracted in 23.41 seconds
+Computing CMC and mAP ...
+** Results **
+mAP: 60.92%
+CMC curve
+Rank-1  : 78.05%
+Rank-5  : 88.24%
+Rank-10 : 90.80%
+Rank-20 : 92.59%
+Iteration time: 745.07 seconds
+###============ Iteration number 20/50 ============###
+GPU MONTAGEM	16.066618
+GPU ORDENACAO	4.244048
+GPU OPTICS	63.158601
+GPU TOTAL	86.151088
+
+Features extracted in 22.31 seconds
+Running OPTICS script ...
+0.24 clusters with one camera were removed
+Clustering and Filtering time: 104.60 seconds
+Ratio of reliable data from target: 0.578320
+#======= Fine-tuning on epoch 0 ======= #
+Features extracted in 13.79 seconds
+-----------
+Creating Triplets ...
+Number of classes: 687
+Final Loss Value on Epoch: 0.009515
+#======= Fine-tuning on epoch 1 ======= #
+Features extracted in 13.70 seconds
+-----------
+Creating Triplets ...
+Number of classes: 687
+Final Loss Value on Epoch: 0.008190
+#======= Fine-tuning on epoch 2 ======= #
+Features extracted in 14.16 seconds
+-----------
+Creating Triplets ...
+Number of classes: 687
+Final Loss Value on Epoch: 0.006035
+#======= Fine-tuning on epoch 3 ======= #
+Features extracted in 14.00 seconds
+-----------
+Creating Triplets ...
+Number of classes: 687
+Final Loss Value on Epoch: 0.006357
+#======= Fine-tuning on epoch 4 ======= #
+Features extracted in 14.26 seconds
+-----------
+Creating Triplets ...
+Number of classes: 687
+Final Loss Value on Epoch: 0.005906
+Finetuning time: 560.68 seconds
+Features extracted in 5.50 seconds
+Features extracted in 23.90 seconds
+Computing CMC and mAP ...
+** Results **
+mAP: 60.36%
+CMC curve
+Rank-1  : 78.64%
+Rank-5  : 87.52%
+Rank-10 : 90.44%
+Rank-20 : 92.28%
+Iteration time: 724.98 seconds
+###============ Iteration number 21/50 ============###
+GPU MONTAGEM	16.231871
+GPU ORDENACAO	4.673705
+GPU OPTICS	71.237636
+GPU TOTAL	94.786854
+
+Features extracted in 22.24 seconds
+Running OPTICS script ...
+0.23 clusters with one camera were removed
+Clustering and Filtering time: 113.46 seconds
+Ratio of reliable data from target: 0.577049
+#======= Fine-tuning on epoch 0 ======= #
+Features extracted in 13.38 seconds
+-----------
+Creating Triplets ...
+Number of classes: 689
+Final Loss Value on Epoch: 0.008326
+#======= Fine-tuning on epoch 1 ======= #
+Features extracted in 13.84 seconds
+-----------
+Creating Triplets ...
+Number of classes: 689
+Final Loss Value on Epoch: 0.007475
+#======= Fine-tuning on epoch 2 ======= #
+Features extracted in 14.05 seconds
+-----------
+Creating Triplets ...
+Number of classes: 689
+Final Loss Value on Epoch: 0.005857
+#======= Fine-tuning on epoch 3 ======= #
+Features extracted in 14.19 seconds
+-----------
+Creating Triplets ...
+Number of classes: 689
+Final Loss Value on Epoch: 0.005676
+#======= Fine-tuning on epoch 4 ======= #
+Features extracted in 14.02 seconds
+-----------
+Creating Triplets ...
+Number of classes: 689
+Final Loss Value on Epoch: 0.005919
+Finetuning time: 564.64 seconds
+Features extracted in 5.29 seconds
+Features extracted in 23.89 seconds
+Computing CMC and mAP ...
+** Results **
+mAP: 61.23%
+CMC curve
+Rank-1  : 78.46%
+Rank-5  : 88.15%
+Rank-10 : 90.39%
+Rank-20 : 92.41%
+Iteration time: 737.52 seconds
+###============ Iteration number 22/50 ============###
+GPU MONTAGEM	16.201043
+GPU ORDENACAO	4.795504
+GPU OPTICS	66.475840
+GPU TOTAL	90.237119
+
+Features extracted in 22.44 seconds
+Running OPTICS script ...
+0.22 clusters with one camera were removed
+Clustering and Filtering time: 109.02 seconds
+Ratio of reliable data from target: 0.595025
+#======= Fine-tuning on epoch 0 ======= #
+Features extracted in 13.99 seconds
+-----------
+Creating Triplets ...
+Number of classes: 692
+Final Loss Value on Epoch: 0.007838
+#======= Fine-tuning on epoch 1 ======= #
+Features extracted in 14.30 seconds
+-----------
+Creating Triplets ...
+Number of classes: 692
+Final Loss Value on Epoch: 0.006864
+#======= Fine-tuning on epoch 2 ======= #
+Features extracted in 14.44 seconds
+-----------
+Creating Triplets ...
+Number of classes: 692
+Final Loss Value on Epoch: 0.005302
+#======= Fine-tuning on epoch 3 ======= #
+Features extracted in 14.80 seconds
+-----------
+Creating Triplets ...
+Number of classes: 692
+Final Loss Value on Epoch: 0.005305
+#======= Fine-tuning on epoch 4 ======= #
+Features extracted in 14.33 seconds
+-----------
+Creating Triplets ...
+Number of classes: 692
+Final Loss Value on Epoch: 0.005888
+Finetuning time: 587.88 seconds
+Features extracted in 5.43 seconds
+Features extracted in 23.40 seconds
+Computing CMC and mAP ...
+** Results **
+mAP: 59.62%
+CMC curve
+Rank-1  : 77.92%
+Rank-5  : 87.70%
+Rank-10 : 89.95%
+Rank-20 : 92.68%
+Iteration time: 755.86 seconds
+###============ Iteration number 23/50 ============###
+GPU MONTAGEM	16.077086
+GPU ORDENACAO	4.402133
+GPU OPTICS	65.232354
+GPU TOTAL	87.885604
+
+Features extracted in 22.59 seconds
+Running OPTICS script ...
+0.23 clusters with one camera were removed
+Clustering and Filtering time: 108.96 seconds
+Ratio of reliable data from target: 0.579833
+#======= Fine-tuning on epoch 0 ======= #
+Features extracted in 13.83 seconds
+-----------
+Creating Triplets ...
+Number of classes: 699
+Final Loss Value on Epoch: 0.007497
+#======= Fine-tuning on epoch 1 ======= #
+Features extracted in 14.16 seconds
+-----------
+Creating Triplets ...
+Number of classes: 699
+Final Loss Value on Epoch: 0.006470
+#======= Fine-tuning on epoch 2 ======= #
+Features extracted in 14.51 seconds
+-----------
+Creating Triplets ...
+Number of classes: 699
+Final Loss Value on Epoch: 0.006498
+#======= Fine-tuning on epoch 3 ======= #
+Features extracted in 14.56 seconds
+-----------
+Creating Triplets ...
+Number of classes: 699
+Final Loss Value on Epoch: 0.005906
+#======= Fine-tuning on epoch 4 ======= #
+Features extracted in 14.43 seconds
+-----------
+Creating Triplets ...
+Number of classes: 699
+Final Loss Value on Epoch: 0.005947
+Finetuning time: 569.20 seconds
+Features extracted in 5.19 seconds
+Features extracted in 23.47 seconds
+Computing CMC and mAP ...
+** Results **
+mAP: 59.84%
+CMC curve
+Rank-1  : 77.33%
+Rank-5  : 88.11%
+Rank-10 : 90.62%
+Rank-20 : 92.86%
+Iteration time: 737.29 seconds
+###============ Iteration number 24/50 ============###
+GPU MONTAGEM	16.084687
+GPU ORDENACAO	4.492021
+GPU OPTICS	65.482133
+GPU TOTAL	88.808620
+
+Features extracted in 22.72 seconds
+Running OPTICS script ...
+0.21 clusters with one camera were removed
+Clustering and Filtering time: 106.86 seconds
+Ratio of reliable data from target: 0.605011
+#======= Fine-tuning on epoch 0 ======= #
+Features extracted in 14.05 seconds
+-----------
+Creating Triplets ...
+Number of classes: 695
+Final Loss Value on Epoch: 0.006987
+#======= Fine-tuning on epoch 1 ======= #
+Features extracted in 14.37 seconds
+-----------
+Creating Triplets ...
+Number of classes: 695
+Final Loss Value on Epoch: 0.006646
+#======= Fine-tuning on epoch 2 ======= #
+Features extracted in 14.82 seconds
+-----------
+Creating Triplets ...
+Number of classes: 695
+Final Loss Value on Epoch: 0.005662
+#======= Fine-tuning on epoch 3 ======= #
+Features extracted in 14.72 seconds
+-----------
+Creating Triplets ...
+Number of classes: 695
+Final Loss Value on Epoch: 0.005417
+#======= Fine-tuning on epoch 4 ======= #
+Features extracted in 14.60 seconds
+-----------
+Creating Triplets ...
+Number of classes: 695
+Final Loss Value on Epoch: 0.004733
+Finetuning time: 606.42 seconds
+Features extracted in 5.25 seconds
+Features extracted in 23.30 seconds
+Computing CMC and mAP ...
+** Results **
+mAP: 60.52%
+CMC curve
+Rank-1  : 77.96%
+Rank-5  : 88.24%
+Rank-10 : 91.02%
+Rank-20 : 92.86%
+Iteration time: 772.30 seconds
+###============ Iteration number 25/50 ============###
+GPU MONTAGEM	16.148334
+GPU ORDENACAO	4.531397
+GPU OPTICS	67.376597
+GPU TOTAL	90.073420
+
+Features extracted in 22.43 seconds
+Running OPTICS script ...
+0.20 clusters with one camera were removed
+Clustering and Filtering time: 109.56 seconds
+Ratio of reliable data from target: 0.610580
+#======= Fine-tuning on epoch 0 ======= #
+Features extracted in 14.00 seconds
+-----------
+Creating Triplets ...
+Number of classes: 698
+Final Loss Value on Epoch: 0.007883
+#======= Fine-tuning on epoch 1 ======= #
+Features extracted in 14.42 seconds
+-----------
+Creating Triplets ...
+Number of classes: 698
+Final Loss Value on Epoch: 0.006095
+#======= Fine-tuning on epoch 2 ======= #
+Features extracted in 14.84 seconds
+-----------
+Creating Triplets ...
+Number of classes: 698
+Final Loss Value on Epoch: 0.005058
+#======= Fine-tuning on epoch 3 ======= #
+Features extracted in 15.09 seconds
+-----------
+Creating Triplets ...
+Number of classes: 698
+Final Loss Value on Epoch: 0.005720
+#======= Fine-tuning on epoch 4 ======= #
+Features extracted in 14.90 seconds
+-----------
+Creating Triplets ...
+Number of classes: 698
+Final Loss Value on Epoch: 0.004663
+Finetuning time: 599.75 seconds
+Features extracted in 5.33 seconds
+Features extracted in 23.95 seconds
+Computing CMC and mAP ...
+** Results **
+mAP: 60.97%
+CMC curve
+Rank-1  : 77.42%
+Rank-5  : 87.57%
+Rank-10 : 90.71%
+Rank-20 : 92.46%
+Iteration time: 769.17 seconds
+###============ Iteration number 26/50 ============###
+GPU MONTAGEM	16.214279
+GPU ORDENACAO	4.241914
+GPU OPTICS	63.784187
+GPU TOTAL	86.909690
+
+Features extracted in 22.85 seconds
+Running OPTICS script ...
+0.21 clusters with one camera were removed
+Clustering and Filtering time: 106.23 seconds
+Ratio of reliable data from target: 0.590122
+#======= Fine-tuning on epoch 0 ======= #
+Features extracted in 14.01 seconds
+-----------
+Creating Triplets ...
+Number of classes: 699
+Final Loss Value on Epoch: 0.007823
+#======= Fine-tuning on epoch 1 ======= #
+Features extracted in 14.13 seconds
+-----------
+Creating Triplets ...
+Number of classes: 699
+Final Loss Value on Epoch: 0.005443
+#======= Fine-tuning on epoch 2 ======= #
+Features extracted in 14.17 seconds
+-----------
+Creating Triplets ...
+Number of classes: 699
+Final Loss Value on Epoch: 0.005413
+#======= Fine-tuning on epoch 3 ======= #
+Features extracted in 14.17 seconds
+-----------
+Creating Triplets ...
+Number of classes: 699
+Final Loss Value on Epoch: 0.005045
+#======= Fine-tuning on epoch 4 ======= #
+Features extracted in 14.54 seconds
+-----------
+Creating Triplets ...
+Number of classes: 699
+Final Loss Value on Epoch: 0.005084
+Finetuning time: 590.64 seconds
+Features extracted in 5.35 seconds
+Features extracted in 23.63 seconds
+Computing CMC and mAP ...
+** Results **
+mAP: 59.04%
+CMC curve
+Rank-1  : 77.78%
+Rank-5  : 87.43%
+Rank-10 : 90.22%
+Rank-20 : 92.01%
+Iteration time: 756.87 seconds
+###============ Iteration number 27/50 ============###
+GPU MONTAGEM	16.029438
+GPU ORDENACAO	4.294235
+GPU OPTICS	65.391396
+GPU TOTAL	88.323444
+
+Features extracted in 22.10 seconds
+Running OPTICS script ...
+0.24 clusters with one camera were removed
+Clustering and Filtering time: 107.50 seconds
+Ratio of reliable data from target: 0.583767
+#======= Fine-tuning on epoch 0 ======= #
+Features extracted in 14.11 seconds
+-----------
+Creating Triplets ...
+Number of classes: 690
+Final Loss Value on Epoch: 0.006654
+#======= Fine-tuning on epoch 1 ======= #
+Features extracted in 14.16 seconds
+-----------
+Creating Triplets ...
+Number of classes: 690
+Final Loss Value on Epoch: 0.005317
+#======= Fine-tuning on epoch 2 ======= #
+Features extracted in 14.65 seconds
+-----------
+Creating Triplets ...
+Number of classes: 690
+Final Loss Value on Epoch: 0.006100
+#======= Fine-tuning on epoch 3 ======= #
+Features extracted in 14.01 seconds
+-----------
+Creating Triplets ...
+Number of classes: 690
+Final Loss Value on Epoch: 0.005528
+#======= Fine-tuning on epoch 4 ======= #
+Features extracted in 14.01 seconds
+-----------
+Creating Triplets ...
+Number of classes: 690
+Final Loss Value on Epoch: 0.004783
+Finetuning time: 580.76 seconds
+Features extracted in 5.27 seconds
+Features extracted in 23.57 seconds
+Computing CMC and mAP ...
+** Results **
+mAP: 59.91%
+CMC curve
+Rank-1  : 78.14%
+Rank-5  : 88.51%
+Rank-10 : 90.71%
+Rank-20 : 92.46%
+Iteration time: 746.82 seconds
+###============ Iteration number 28/50 ============###
+GPU MONTAGEM	16.219552
+GPU ORDENACAO	4.494867
+GPU OPTICS	65.103271
+GPU TOTAL	88.516477
+
+Features extracted in 22.44 seconds
+Running OPTICS script ...
+0.22 clusters with one camera were removed
+Clustering and Filtering time: 106.89 seconds
+Ratio of reliable data from target: 0.607554
+#======= Fine-tuning on epoch 0 ======= #
+Features extracted in 14.05 seconds
+-----------
+Creating Triplets ...
+Number of classes: 704
+Final Loss Value on Epoch: 0.005592
+#======= Fine-tuning on epoch 1 ======= #
+Features extracted in 14.49 seconds
+-----------
+Creating Triplets ...
+Number of classes: 704
+Final Loss Value on Epoch: 0.004841
+#======= Fine-tuning on epoch 2 ======= #
+Features extracted in 14.39 seconds
+-----------
+Creating Triplets ...
+Number of classes: 704
+Final Loss Value on Epoch: 0.005549
+#======= Fine-tuning on epoch 3 ======= #
+Features extracted in 14.52 seconds
+-----------
+Creating Triplets ...
+Number of classes: 704
+Final Loss Value on Epoch: 0.004783
+#======= Fine-tuning on epoch 4 ======= #
+Features extracted in 14.59 seconds
+-----------
+Creating Triplets ...
+Number of classes: 704
+Final Loss Value on Epoch: 0.004393
+Finetuning time: 604.54 seconds
+Features extracted in 5.78 seconds
+Features extracted in 24.60 seconds
+Computing CMC and mAP ...
+** Results **
+mAP: 60.88%
+CMC curve
+Rank-1  : 78.41%
+Rank-5  : 88.46%
+Rank-10 : 90.98%
+Rank-20 : 92.73%
+Iteration time: 771.95 seconds
+###============ Iteration number 29/50 ============###
+GPU MONTAGEM	16.200462
+GPU ORDENACAO	4.449965
+GPU OPTICS	63.309021
+GPU TOTAL	86.278020
+
+Features extracted in 23.42 seconds
+Running OPTICS script ...
+0.22 clusters with one camera were removed
+Clustering and Filtering time: 104.58 seconds
+Ratio of reliable data from target: 0.588972
+#======= Fine-tuning on epoch 0 ======= #
+Features extracted in 14.42 seconds
+-----------
+Creating Triplets ...
+Number of classes: 689
+Final Loss Value on Epoch: 0.006241
+#======= Fine-tuning on epoch 1 ======= #
+Features extracted in 14.05 seconds
+-----------
+Creating Triplets ...
+Number of classes: 689
+Final Loss Value on Epoch: 0.004759
+#======= Fine-tuning on epoch 2 ======= #
+Features extracted in 14.20 seconds
+-----------
+Creating Triplets ...
+Number of classes: 689
+Final Loss Value on Epoch: 0.005138
+#======= Fine-tuning on epoch 3 ======= #
+Features extracted in 14.60 seconds
+-----------
+Creating Triplets ...
+Number of classes: 689
+Final Loss Value on Epoch: 0.004252
+#======= Fine-tuning on epoch 4 ======= #
+Features extracted in 14.70 seconds
+-----------
+Creating Triplets ...
+Number of classes: 689
+Final Loss Value on Epoch: 0.004833
+Finetuning time: 582.26 seconds
+Features extracted in 5.14 seconds
+Features extracted in 23.35 seconds
+Computing CMC and mAP ...
+** Results **
+mAP: 60.61%
+CMC curve
+Rank-1  : 77.87%
+Rank-5  : 87.66%
+Rank-10 : 90.71%
+Rank-20 : 92.68%
+Iteration time: 753.06 seconds
+###============ Iteration number 30/50 ============###
+GPU MONTAGEM	16.255391
+GPU ORDENACAO	4.297373
+GPU OPTICS	63.466367
+GPU TOTAL	86.655976
+
+Features extracted in 22.03 seconds
+Running OPTICS script ...
+0.21 clusters with one camera were removed
+Clustering and Filtering time: 104.37 seconds
+Ratio of reliable data from target: 0.599746
+#======= Fine-tuning on epoch 0 ======= #
+Features extracted in 14.31 seconds
+-----------
+Creating Triplets ...
+Number of classes: 705
+Final Loss Value on Epoch: 0.006306
+#======= Fine-tuning on epoch 1 ======= #
+Features extracted in 14.23 seconds
+-----------
+Creating Triplets ...
+Number of classes: 705
+Final Loss Value on Epoch: 0.005657
+#======= Fine-tuning on epoch 2 ======= #
+Features extracted in 14.42 seconds
+-----------
+Creating Triplets ...
+Number of classes: 705
+Final Loss Value on Epoch: 0.004442
+#======= Fine-tuning on epoch 3 ======= #
+Features extracted in 15.07 seconds
+-----------
+Creating Triplets ...
+Number of classes: 705
+Final Loss Value on Epoch: 0.004722
+#======= Fine-tuning on epoch 4 ======= #
+Features extracted in 14.33 seconds
+-----------
+Creating Triplets ...
+Number of classes: 705
+Final Loss Value on Epoch: 0.004169
+Finetuning time: 605.54 seconds
+Features extracted in 5.56 seconds
+Features extracted in 23.76 seconds
+Computing CMC and mAP ...
+** Results **
+mAP: 60.85%
+CMC curve
+Rank-1  : 78.32%
+Rank-5  : 88.02%
+Rank-10 : 90.66%
+Rank-20 : 92.77%
+Iteration time: 769.27 seconds
+###============ Iteration number 31/50 ============###
+GPU MONTAGEM	16.056725
+GPU ORDENACAO	4.329093
+GPU OPTICS	65.046064
+GPU TOTAL	88.049683
+
+Features extracted in 22.39 seconds
+Running OPTICS script ...
+0.23 clusters with one camera were removed
+Clustering and Filtering time: 106.52 seconds
+Ratio of reliable data from target: 0.590970
+#======= Fine-tuning on epoch 0 ======= #
+Features extracted in 14.28 seconds
+-----------
+Creating Triplets ...
+Number of classes: 695
+Final Loss Value on Epoch: 0.007774
+#======= Fine-tuning on epoch 1 ======= #
+Features extracted in 13.78 seconds
+-----------
+Creating Triplets ...
+Number of classes: 695
+Final Loss Value on Epoch: 0.006274
+#======= Fine-tuning on epoch 2 ======= #
+Features extracted in 14.69 seconds
+-----------
+Creating Triplets ...
+Number of classes: 695
+Final Loss Value on Epoch: 0.004850
+#======= Fine-tuning on epoch 3 ======= #
+Features extracted in 14.40 seconds
+-----------
+Creating Triplets ...
+Number of classes: 695
+Final Loss Value on Epoch: 0.003873
+#======= Fine-tuning on epoch 4 ======= #
+Features extracted in 14.11 seconds
+-----------
+Creating Triplets ...
+Number of classes: 695
+Final Loss Value on Epoch: 0.003416
+Finetuning time: 581.63 seconds
+Features extracted in 5.31 seconds
+Features extracted in 23.71 seconds
+Computing CMC and mAP ...
+** Results **
+mAP: 63.59%
+CMC curve
+Rank-1  : 79.98%
+Rank-5  : 89.32%
+Rank-10 : 91.74%
+Rank-20 : 93.31%
+Iteration time: 747.44 seconds
+###============ Iteration number 32/50 ============###
+GPU MONTAGEM	16.149989
+GPU ORDENACAO	4.345504
+GPU OPTICS	65.483452
+GPU TOTAL	88.642649
+
+Features extracted in 22.48 seconds
+Running OPTICS script ...
+0.21 clusters with one camera were removed
+Clustering and Filtering time: 108.29 seconds
+Ratio of reliable data from target: 0.613303
+#======= Fine-tuning on epoch 0 ======= #
+Features extracted in 14.13 seconds
+-----------
+Creating Triplets ...
+Number of classes: 702
+Final Loss Value on Epoch: 0.003894
+#======= Fine-tuning on epoch 1 ======= #
+Features extracted in 14.65 seconds
+-----------
+Creating Triplets ...
+Number of classes: 702
+Final Loss Value on Epoch: 0.003754
+#======= Fine-tuning on epoch 2 ======= #
+Features extracted in 14.79 seconds
+-----------
+Creating Triplets ...
+Number of classes: 702
+Final Loss Value on Epoch: 0.003512
+#======= Fine-tuning on epoch 3 ======= #
+Features extracted in 14.58 seconds
+-----------
+Creating Triplets ...
+Number of classes: 702
+Final Loss Value on Epoch: 0.003772
+#======= Fine-tuning on epoch 4 ======= #
+Features extracted in 14.47 seconds
+-----------
+Creating Triplets ...
+Number of classes: 702
+Final Loss Value on Epoch: 0.002810
+Finetuning time: 601.29 seconds
+Features extracted in 5.33 seconds
+Features extracted in 24.00 seconds
+Computing CMC and mAP ...
+** Results **
+mAP: 64.04%
+CMC curve
+Rank-1  : 80.43%
+Rank-5  : 89.54%
+Rank-10 : 91.74%
+Rank-20 : 93.45%
+Iteration time: 769.31 seconds
+###============ Iteration number 33/50 ============###
+GPU MONTAGEM	16.418237
+GPU ORDENACAO	4.803757
+GPU OPTICS	65.522211
+GPU TOTAL	89.385074
+
+Features extracted in 21.91 seconds
+Running OPTICS script ...
+0.22 clusters with one camera were removed
+Clustering and Filtering time: 107.40 seconds
+Ratio of reliable data from target: 0.591212
+#======= Fine-tuning on epoch 0 ======= #
+Features extracted in 13.71 seconds
+-----------
+Creating Triplets ...
+Number of classes: 703
+Final Loss Value on Epoch: 0.003640
+#======= Fine-tuning on epoch 1 ======= #
+Features extracted in 14.17 seconds
+-----------
+Creating Triplets ...
+Number of classes: 703
+Final Loss Value on Epoch: 0.003406
+#======= Fine-tuning on epoch 2 ======= #
+Features extracted in 14.23 seconds
+-----------
+Creating Triplets ...
+Number of classes: 703
+Final Loss Value on Epoch: 0.002573
+#======= Fine-tuning on epoch 3 ======= #
+Features extracted in 14.34 seconds
+-----------
+Creating Triplets ...
+Number of classes: 703
+Final Loss Value on Epoch: 0.002451
+#======= Fine-tuning on epoch 4 ======= #
+Features extracted in 14.20 seconds
+-----------
+Creating Triplets ...
+Number of classes: 703
+Final Loss Value on Epoch: 0.002390
+Finetuning time: 578.44 seconds
+Features extracted in 5.08 seconds
+Features extracted in 23.25 seconds
+Computing CMC and mAP ...
+** Results **
+mAP: 64.23%
+CMC curve
+Rank-1  : 80.48%
+Rank-5  : 89.68%
+Rank-10 : 91.70%
+Rank-20 : 93.22%
+Iteration time: 744.28 seconds
+###============ Iteration number 34/50 ============###
+GPU MONTAGEM	16.269088
+GPU ORDENACAO	4.845388
+GPU OPTICS	66.065557
+GPU TOTAL	89.815572
+
+Features extracted in 22.03 seconds
+Running OPTICS script ...
+0.23 clusters with one camera were removed
+Clustering and Filtering time: 107.85 seconds
+Ratio of reliable data from target: 0.599927
+#======= Fine-tuning on epoch 0 ======= #
+Features extracted in 14.14 seconds
+-----------
+Creating Triplets ...
+Number of classes: 694
+Final Loss Value on Epoch: 0.002521
+#======= Fine-tuning on epoch 1 ======= #
+Features extracted in 14.24 seconds
+-----------
+Creating Triplets ...
+Number of classes: 694
+Final Loss Value on Epoch: 0.002656
+#======= Fine-tuning on epoch 2 ======= #
+Features extracted in 14.53 seconds
+-----------
+Creating Triplets ...
+Number of classes: 694
+Final Loss Value on Epoch: 0.002224
+#======= Fine-tuning on epoch 3 ======= #
+Features extracted in 14.66 seconds
+-----------
+Creating Triplets ...
+Number of classes: 694
+Final Loss Value on Epoch: 0.002051
+#======= Fine-tuning on epoch 4 ======= #
+Features extracted in 14.29 seconds
+-----------
+Creating Triplets ...
+Number of classes: 694
+Final Loss Value on Epoch: 0.001340
+Finetuning time: 589.40 seconds
+Features extracted in 5.39 seconds
+Features extracted in 23.50 seconds
+Computing CMC and mAP ...
+** Results **
+mAP: 64.87%
+CMC curve
+Rank-1  : 80.70%
+Rank-5  : 89.81%
+Rank-10 : 91.97%
+Rank-20 : 93.54%
+Iteration time: 756.28 seconds
+###============ Iteration number 35/50 ============###
+GPU MONTAGEM	16.108826
+GPU ORDENACAO	4.297182
+GPU OPTICS	65.005458
+GPU TOTAL	87.406512
+
+Features extracted in 21.93 seconds
+Running OPTICS script ...
+0.21 clusters with one camera were removed
+Clustering and Filtering time: 108.09 seconds
+Ratio of reliable data from target: 0.616390
+#======= Fine-tuning on epoch 0 ======= #
+Features extracted in 14.53 seconds
+-----------
+Creating Triplets ...
+Number of classes: 707
+Final Loss Value on Epoch: 0.003330
+#======= Fine-tuning on epoch 1 ======= #
+Features extracted in 15.16 seconds
+-----------
+Creating Triplets ...
+Number of classes: 707
+Final Loss Value on Epoch: 0.002396
+#======= Fine-tuning on epoch 2 ======= #
+Features extracted in 14.41 seconds
+-----------
+Creating Triplets ...
+Number of classes: 707
+Final Loss Value on Epoch: 0.002215
+#======= Fine-tuning on epoch 3 ======= #
+Features extracted in 14.61 seconds
+-----------
+Creating Triplets ...
+Number of classes: 707
+Final Loss Value on Epoch: 0.002295
+#======= Fine-tuning on epoch 4 ======= #
+Features extracted in 14.66 seconds
+-----------
+Creating Triplets ...
+Number of classes: 707
+Final Loss Value on Epoch: 0.002647
+Finetuning time: 604.58 seconds
+Features extracted in 5.17 seconds
+Features extracted in 23.87 seconds
+Computing CMC and mAP ...
+** Results **
+mAP: 65.09%
+CMC curve
+Rank-1  : 81.15%
+Rank-5  : 89.81%
+Rank-10 : 92.41%
+Rank-20 : 93.72%
+Iteration time: 771.55 seconds
+###============ Iteration number 36/50 ============###
+GPU MONTAGEM	16.095519
+GPU ORDENACAO	4.434865
+GPU OPTICS	65.344002
+GPU TOTAL	87.885649
+
+Features extracted in 22.27 seconds
+Running OPTICS script ...
+0.20 clusters with one camera were removed
+Clustering and Filtering time: 106.43 seconds
+Ratio of reliable data from target: 0.618509
+#======= Fine-tuning on epoch 0 ======= #
+Features extracted in 14.53 seconds
+-----------
+Creating Triplets ...
+Number of classes: 714
+Final Loss Value on Epoch: 0.002527
+#======= Fine-tuning on epoch 1 ======= #
+Features extracted in 14.77 seconds
+-----------
+Creating Triplets ...
+Number of classes: 714
+Final Loss Value on Epoch: 0.001907
+#======= Fine-tuning on epoch 2 ======= #
+Features extracted in 14.66 seconds
+-----------
+Creating Triplets ...
+Number of classes: 714
+Final Loss Value on Epoch: 0.002750
+#======= Fine-tuning on epoch 3 ======= #
+Features extracted in 14.92 seconds
+-----------
+Creating Triplets ...
+Number of classes: 714
+Final Loss Value on Epoch: 0.001660
+#======= Fine-tuning on epoch 4 ======= #
+Features extracted in 15.10 seconds
+-----------
+Creating Triplets ...
+Number of classes: 714
+Final Loss Value on Epoch: 0.001475
+Finetuning time: 607.93 seconds
+Features extracted in 5.28 seconds
+Features extracted in 23.60 seconds
+Computing CMC and mAP ...
+** Results **
+mAP: 65.08%
+CMC curve
+Rank-1  : 81.10%
+Rank-5  : 89.99%
+Rank-10 : 92.37%
+Rank-20 : 93.58%
+Iteration time: 773.38 seconds
+###============ Iteration number 37/50 ============###
+GPU MONTAGEM	16.067501
+GPU ORDENACAO	4.803961
+GPU OPTICS	65.032372
+GPU TOTAL	88.583459
+
+Features extracted in 22.46 seconds
+Running OPTICS script ...
+0.20 clusters with one camera were removed
+Clustering and Filtering time: 107.07 seconds
+Ratio of reliable data from target: 0.606464
+#======= Fine-tuning on epoch 0 ======= #
+Features extracted in 14.31 seconds
+-----------
+Creating Triplets ...
+Number of classes: 717
+Final Loss Value on Epoch: 0.001675
+#======= Fine-tuning on epoch 1 ======= #
+Features extracted in 14.54 seconds
+-----------
+Creating Triplets ...
+Number of classes: 717
+Final Loss Value on Epoch: 0.002003
+#======= Fine-tuning on epoch 2 ======= #
+Features extracted in 14.89 seconds
+-----------
+Creating Triplets ...
+Number of classes: 717
+Final Loss Value on Epoch: 0.001687
+#======= Fine-tuning on epoch 3 ======= #
+Features extracted in 15.03 seconds
+-----------
+Creating Triplets ...
+Number of classes: 717
+Final Loss Value on Epoch: 0.001563
+#======= Fine-tuning on epoch 4 ======= #
+Features extracted in 14.69 seconds
+-----------
+Creating Triplets ...
+Number of classes: 717
+Final Loss Value on Epoch: 0.001684
+Finetuning time: 596.96 seconds
+Features extracted in 5.29 seconds
+Features extracted in 23.90 seconds
+Computing CMC and mAP ...
+** Results **
+mAP: 65.00%
+CMC curve
+Rank-1  : 81.28%
+Rank-5  : 89.95%
+Rank-10 : 92.28%
+Rank-20 : 93.76%
+Iteration time: 763.60 seconds
+###============ Iteration number 38/50 ============###
+GPU MONTAGEM	16.066356
+GPU ORDENACAO	4.600292
+GPU OPTICS	67.245519
+GPU TOTAL	90.552150
+
+Features extracted in 22.39 seconds
+Running OPTICS script ...
+0.20 clusters with one camera were removed
+Clustering and Filtering time: 108.62 seconds
+Ratio of reliable data from target: 0.621656
+#======= Fine-tuning on epoch 0 ======= #
+Features extracted in 14.35 seconds
+-----------
+Creating Triplets ...
+Number of classes: 720
+Final Loss Value on Epoch: 0.002001
+#======= Fine-tuning on epoch 1 ======= #
+Features extracted in 14.95 seconds
+-----------
+Creating Triplets ...
+Number of classes: 720
+Final Loss Value on Epoch: 0.001793
+#======= Fine-tuning on epoch 2 ======= #
+Features extracted in 15.37 seconds
+-----------
+Creating Triplets ...
+Number of classes: 720
+Final Loss Value on Epoch: 0.001896
+#======= Fine-tuning on epoch 3 ======= #
+Features extracted in 15.13 seconds
+-----------
+Creating Triplets ...
+Number of classes: 720
+Final Loss Value on Epoch: 0.001163
+#======= Fine-tuning on epoch 4 ======= #
+Features extracted in 14.69 seconds
+-----------
+Creating Triplets ...
+Number of classes: 720
+Final Loss Value on Epoch: 0.001830
+Finetuning time: 607.34 seconds
+Features extracted in 5.36 seconds
+Features extracted in 23.42 seconds
+Computing CMC and mAP ...
+** Results **
+mAP: 65.05%
+CMC curve
+Rank-1  : 81.10%
+Rank-5  : 89.68%
+Rank-10 : 91.92%
+Rank-20 : 93.54%
+Iteration time: 774.64 seconds
+###============ Iteration number 39/50 ============###
+GPU MONTAGEM	16.156317
+GPU ORDENACAO	4.171372
+GPU OPTICS	68.264111
+GPU TOTAL	91.224400
+
+Features extracted in 22.00 seconds
+Running OPTICS script ...
+0.20 clusters with one camera were removed
+Clustering and Filtering time: 109.31 seconds
+Ratio of reliable data from target: 0.606404
+#======= Fine-tuning on epoch 0 ======= #
+Features extracted in 14.45 seconds
+-----------
+Creating Triplets ...
+Number of classes: 713
+Final Loss Value on Epoch: 0.001901
+#======= Fine-tuning on epoch 1 ======= #
+Features extracted in 14.58 seconds
+-----------
+Creating Triplets ...
+Number of classes: 713
+Final Loss Value on Epoch: 0.001686
+#======= Fine-tuning on epoch 2 ======= #
+Features extracted in 14.72 seconds
+-----------
+Creating Triplets ...
+Number of classes: 713
+Final Loss Value on Epoch: 0.001810
+#======= Fine-tuning on epoch 3 ======= #
+Features extracted in 14.52 seconds
+-----------
+Creating Triplets ...
+Number of classes: 713
+Final Loss Value on Epoch: 0.001349
+#======= Fine-tuning on epoch 4 ======= #
+Features extracted in 16.05 seconds
+-----------
+Creating Triplets ...
+Number of classes: 713
+Final Loss Value on Epoch: 0.001485
+Finetuning time: 595.59 seconds
+Features extracted in 5.85 seconds
+Features extracted in 23.87 seconds
+Computing CMC and mAP ...
+** Results **
+mAP: 65.14%
+CMC curve
+Rank-1  : 80.66%
+Rank-5  : 90.17%
+Rank-10 : 92.06%
+Rank-20 : 93.72%
+Iteration time: 767.10 seconds
+###============ Iteration number 40/50 ============###
+GPU MONTAGEM	16.163279
+GPU ORDENACAO	4.386032
+GPU OPTICS	66.208165
+GPU TOTAL	89.048010
+
+Features extracted in 23.92 seconds
+Running OPTICS script ...
+0.20 clusters with one camera were removed
+Clustering and Filtering time: 111.42 seconds
+Ratio of reliable data from target: 0.631522
+#======= Fine-tuning on epoch 0 ======= #
+Features extracted in 15.25 seconds
+-----------
+Creating Triplets ...
+Number of classes: 719
+Final Loss Value on Epoch: 0.001811
+#======= Fine-tuning on epoch 1 ======= #
+Features extracted in 15.60 seconds
+-----------
+Creating Triplets ...
+Number of classes: 719
+Final Loss Value on Epoch: 0.001938
+#======= Fine-tuning on epoch 2 ======= #
+Features extracted in 15.71 seconds
+-----------
+Creating Triplets ...
+Number of classes: 719
+Final Loss Value on Epoch: 0.001831
+#======= Fine-tuning on epoch 3 ======= #
+Features extracted in 16.12 seconds
+-----------
+Creating Triplets ...
+Number of classes: 719
+Final Loss Value on Epoch: 0.001424
+#======= Fine-tuning on epoch 4 ======= #
+Features extracted in 15.59 seconds
+-----------
+Creating Triplets ...
+Number of classes: 719
+Final Loss Value on Epoch: 0.001223
+Finetuning time: 634.13 seconds
+Features extracted in 5.75 seconds
+Features extracted in 24.94 seconds
+Computing CMC and mAP ...
+** Results **
+mAP: 65.28%
+CMC curve
+Rank-1  : 81.06%
+Rank-5  : 89.99%
+Rank-10 : 92.32%
+Rank-20 : 94.12%
+Iteration time: 811.42 seconds
+###============ Iteration number 41/50 ============###
+GPU MONTAGEM	16.203451
+GPU ORDENACAO	4.223765
+GPU OPTICS	63.059221
+GPU TOTAL	85.781045
+
+Features extracted in 23.76 seconds
+Running OPTICS script ...
+0.20 clusters with one camera were removed
+Clustering and Filtering time: 108.33 seconds
+Ratio of reliable data from target: 0.617117
+#======= Fine-tuning on epoch 0 ======= #
+Features extracted in 14.63 seconds
+-----------
+Creating Triplets ...
+Number of classes: 714
+Final Loss Value on Epoch: 0.002508
+#======= Fine-tuning on epoch 1 ======= #
+Features extracted in 15.02 seconds
+-----------
+Creating Triplets ...
+Number of classes: 714
+Final Loss Value on Epoch: 0.002244
+#======= Fine-tuning on epoch 2 ======= #
+Features extracted in 15.24 seconds
+-----------
+Creating Triplets ...
+Number of classes: 714
+Final Loss Value on Epoch: 0.002086
+#======= Fine-tuning on epoch 3 ======= #
+Features extracted in 15.18 seconds
+-----------
+Creating Triplets ...
+Number of classes: 714
+Final Loss Value on Epoch: 0.002200
+#======= Fine-tuning on epoch 4 ======= #
+Features extracted in 14.96 seconds
+-----------
+Creating Triplets ...
+Number of classes: 714
+Final Loss Value on Epoch: 0.002498
+Finetuning time: 611.07 seconds
+Features extracted in 5.49 seconds
+Features extracted in 23.98 seconds
+Computing CMC and mAP ...
+** Results **
+mAP: 64.96%
+CMC curve
+Rank-1  : 81.06%
+Rank-5  : 89.81%
+Rank-10 : 92.19%
+Rank-20 : 93.90%
+Iteration time: 782.35 seconds
+###============ Iteration number 42/50 ============###
+GPU MONTAGEM	16.348745
+GPU ORDENACAO	4.818770
+GPU OPTICS	64.197033
+GPU TOTAL	87.615524
+
+Features extracted in 22.44 seconds
+Running OPTICS script ...
+0.20 clusters with one camera were removed
+Clustering and Filtering time: 106.65 seconds
+Ratio of reliable data from target: 0.600835
+#======= Fine-tuning on epoch 0 ======= #
+Features extracted in 14.14 seconds
+-----------
+Creating Triplets ...
+Number of classes: 716
+Final Loss Value on Epoch: 0.002777
+#======= Fine-tuning on epoch 1 ======= #
+Features extracted in 14.27 seconds
+-----------
+Creating Triplets ...
+Number of classes: 716
+Final Loss Value on Epoch: 0.002341
+#======= Fine-tuning on epoch 2 ======= #
+Features extracted in 14.63 seconds
+-----------
+Creating Triplets ...
+Number of classes: 716
+Final Loss Value on Epoch: 0.001606
+#======= Fine-tuning on epoch 3 ======= #
+Features extracted in 14.55 seconds
+-----------
+Creating Triplets ...
+Number of classes: 716
+Final Loss Value on Epoch: 0.001757
+#======= Fine-tuning on epoch 4 ======= #
+Features extracted in 14.40 seconds
+-----------
+Creating Triplets ...
+Number of classes: 716
+Final Loss Value on Epoch: 0.001267
+Finetuning time: 586.96 seconds
+Features extracted in 5.48 seconds
+Features extracted in 23.80 seconds
+Computing CMC and mAP ...
+** Results **
+mAP: 64.62%
+CMC curve
+Rank-1  : 81.01%
+Rank-5  : 89.41%
+Rank-10 : 91.79%
+Rank-20 : 93.85%
+Iteration time: 753.24 seconds
+###============ Iteration number 43/50 ============###
+GPU MONTAGEM	16.138663
+GPU ORDENACAO	4.335024
+GPU OPTICS	64.886221
+GPU TOTAL	87.872727
+
+Features extracted in 22.52 seconds
+Running OPTICS script ...
+0.19 clusters with one camera were removed
+Clustering and Filtering time: 105.95 seconds
+Ratio of reliable data from target: 0.630674
+#======= Fine-tuning on epoch 0 ======= #
+Features extracted in 14.45 seconds
+-----------
+Creating Triplets ...
+Number of classes: 718
+Final Loss Value on Epoch: 0.002047
+#======= Fine-tuning on epoch 1 ======= #
+Features extracted in 14.92 seconds
+-----------
+Creating Triplets ...
+Number of classes: 718
+Final Loss Value on Epoch: 0.001758
+#======= Fine-tuning on epoch 2 ======= #
+Features extracted in 14.86 seconds
+-----------
+Creating Triplets ...
+Number of classes: 718
+Final Loss Value on Epoch: 0.001684
+#======= Fine-tuning on epoch 3 ======= #
+Features extracted in 14.88 seconds
+-----------
+Creating Triplets ...
+Number of classes: 718
+Final Loss Value on Epoch: 0.001492
+#======= Fine-tuning on epoch 4 ======= #
+Features extracted in 14.84 seconds
+-----------
+Creating Triplets ...
+Number of classes: 718
+Final Loss Value on Epoch: 0.001870
+Finetuning time: 617.76 seconds
+Features extracted in 5.24 seconds
+Features extracted in 23.50 seconds
+Computing CMC and mAP ...
+** Results **
+mAP: 65.21%
+CMC curve
+Rank-1  : 81.28%
+Rank-5  : 89.95%
+Rank-10 : 92.06%
+Rank-20 : 94.12%
+Iteration time: 782.56 seconds
+###============ Iteration number 44/50 ============###
+GPU MONTAGEM	16.136943
+GPU ORDENACAO	4.305469
+GPU OPTICS	64.747685
+GPU TOTAL	87.815252
+
+Features extracted in 21.99 seconds
+Running OPTICS script ...
+0.21 clusters with one camera were removed
+Clustering and Filtering time: 107.01 seconds
+Ratio of reliable data from target: 0.595751
+#======= Fine-tuning on epoch 0 ======= #
+Features extracted in 13.78 seconds
+-----------
+Creating Triplets ...
+Number of classes: 709
+Final Loss Value on Epoch: 0.002147
+#======= Fine-tuning on epoch 1 ======= #
+Features extracted in 14.42 seconds
+-----------
+Creating Triplets ...
+Number of classes: 709
+Final Loss Value on Epoch: 0.001578
+#======= Fine-tuning on epoch 2 ======= #
+Features extracted in 14.02 seconds
+-----------
+Creating Triplets ...
+Number of classes: 709
+Final Loss Value on Epoch: 0.001892
+#======= Fine-tuning on epoch 3 ======= #
+Features extracted in 14.19 seconds
+-----------
+Creating Triplets ...
+Number of classes: 709
+Final Loss Value on Epoch: 0.001685
+#======= Fine-tuning on epoch 4 ======= #
+Features extracted in 14.64 seconds
+-----------
+Creating Triplets ...
+Number of classes: 709
+Final Loss Value on Epoch: 0.001568
+Finetuning time: 575.40 seconds
+Features extracted in 5.43 seconds
+Features extracted in 23.87 seconds
+Computing CMC and mAP ...
+** Results **
+mAP: 64.59%
+CMC curve
+Rank-1  : 81.10%
+Rank-5  : 89.68%
+Rank-10 : 92.10%
+Rank-20 : 93.76%
+Iteration time: 741.66 seconds
+###============ Iteration number 45/50 ============###
+GPU MONTAGEM	16.127201
+GPU ORDENACAO	4.722182
+GPU OPTICS	68.289612
+GPU TOTAL	91.766213
+
+Features extracted in 21.67 seconds
+Running OPTICS script ...
+0.21 clusters with one camera were removed
+Clustering and Filtering time: 109.72 seconds
+Ratio of reliable data from target: 0.618085
+#======= Fine-tuning on epoch 0 ======= #
+Features extracted in 14.25 seconds
+-----------
+Creating Triplets ...
+Number of classes: 712
+Final Loss Value on Epoch: 0.001575
+#======= Fine-tuning on epoch 1 ======= #
+Features extracted in 14.90 seconds
+-----------
+Creating Triplets ...
+Number of classes: 712
+Final Loss Value on Epoch: 0.001801
+#======= Fine-tuning on epoch 2 ======= #
+Features extracted in 14.94 seconds
+-----------
+Creating Triplets ...
+Number of classes: 712
+Final Loss Value on Epoch: 0.001382
+#======= Fine-tuning on epoch 3 ======= #
+Features extracted in 14.54 seconds
+-----------
+Creating Triplets ...
+Number of classes: 712
+Final Loss Value on Epoch: 0.001343
+#======= Fine-tuning on epoch 4 ======= #
+Features extracted in 14.86 seconds
+-----------
+Creating Triplets ...
+Number of classes: 712
+Final Loss Value on Epoch: 0.001270
+Finetuning time: 597.94 seconds
+Features extracted in 5.89 seconds
+Features extracted in 23.70 seconds
+Computing CMC and mAP ...
+** Results **
+mAP: 64.89%
+CMC curve
+Rank-1  : 81.28%
+Rank-5  : 89.81%
+Rank-10 : 92.10%
+Rank-20 : 93.90%
+Iteration time: 767.91 seconds
+###============ Iteration number 46/50 ============###
+GPU MONTAGEM	16.204735
+GPU ORDENACAO	4.507021
+GPU OPTICS	64.125993
+GPU TOTAL	86.829256
+
+Features extracted in 22.18 seconds
+Running OPTICS script ...
+0.20 clusters with one camera were removed
+Clustering and Filtering time: 106.74 seconds
+Ratio of reliable data from target: 0.620869
+#======= Fine-tuning on epoch 0 ======= #
+Features extracted in 14.77 seconds
+-----------
+Creating Triplets ...
+Number of classes: 720
+Final Loss Value on Epoch: 0.001375
+#======= Fine-tuning on epoch 1 ======= #
+Features extracted in 14.54 seconds
+-----------
+Creating Triplets ...
+Number of classes: 720
+Final Loss Value on Epoch: 0.001220
+#======= Fine-tuning on epoch 2 ======= #
+Features extracted in 14.42 seconds
+-----------
+Creating Triplets ...
+Number of classes: 720
+Final Loss Value on Epoch: 0.001565
+#======= Fine-tuning on epoch 3 ======= #
+Features extracted in 14.83 seconds
+-----------
+Creating Triplets ...
+Number of classes: 720
+Final Loss Value on Epoch: 0.001422
+#======= Fine-tuning on epoch 4 ======= #
+Features extracted in 14.82 seconds
+-----------
+Creating Triplets ...
+Number of classes: 720
+Final Loss Value on Epoch: 0.001245
+Finetuning time: 602.46 seconds
+Features extracted in 5.22 seconds
+Features extracted in 23.42 seconds
+Computing CMC and mAP ...
+** Results **
+mAP: 65.11%
+CMC curve
+Rank-1  : 81.73%
+Rank-5  : 90.26%
+Rank-10 : 92.10%
+Rank-20 : 93.63%
+Iteration time: 767.62 seconds
+###============ Iteration number 47/50 ============###
+GPU MONTAGEM	16.297999
+GPU ORDENACAO	4.736428
+GPU OPTICS	66.291955
+GPU TOTAL	89.988039
+
+Features extracted in 21.66 seconds
+Running OPTICS script ...
+0.19 clusters with one camera were removed
+Clustering and Filtering time: 108.98 seconds
+Ratio of reliable data from target: 0.621716
+#======= Fine-tuning on epoch 0 ======= #
+Features extracted in 14.46 seconds
+-----------
+Creating Triplets ...
+Number of classes: 721
+Final Loss Value on Epoch: 0.001651
+#======= Fine-tuning on epoch 1 ======= #
+Features extracted in 14.46 seconds
+-----------
+Creating Triplets ...
+Number of classes: 721
+Final Loss Value on Epoch: 0.001159
+#======= Fine-tuning on epoch 2 ======= #
+Features extracted in 14.90 seconds
+-----------
+Creating Triplets ...
+Number of classes: 721
+Final Loss Value on Epoch: 0.001365
+#======= Fine-tuning on epoch 3 ======= #
+Features extracted in 15.05 seconds
+-----------
+Creating Triplets ...
+Number of classes: 721
+Final Loss Value on Epoch: 0.001284
+#======= Fine-tuning on epoch 4 ======= #
+Features extracted in 14.95 seconds
+-----------
+Creating Triplets ...
+Number of classes: 721
+Final Loss Value on Epoch: 0.001363
+Finetuning time: 604.29 seconds
+Features extracted in 5.39 seconds
+Features extracted in 23.80 seconds
+Computing CMC and mAP ...
+** Results **
+mAP: 64.90%
+CMC curve
+Rank-1  : 80.88%
+Rank-5  : 90.17%
+Rank-10 : 92.15%
+Rank-20 : 93.63%
+Iteration time: 772.04 seconds
+###============ Iteration number 48/50 ============###
+GPU MONTAGEM	16.181761
+GPU ORDENACAO	4.169518
+GPU OPTICS	66.827039
+GPU TOTAL	89.833736
+
+Features extracted in 22.35 seconds
+Running OPTICS script ...
+0.20 clusters with one camera were removed
+Clustering and Filtering time: 109.89 seconds
+Ratio of reliable data from target: 0.624682
+#======= Fine-tuning on epoch 0 ======= #
+Features extracted in 14.55 seconds
+-----------
+Creating Triplets ...
+Number of classes: 715
+Final Loss Value on Epoch: 0.001567
+#======= Fine-tuning on epoch 1 ======= #
+Features extracted in 15.16 seconds
+-----------
+Creating Triplets ...
+Number of classes: 715
+Final Loss Value on Epoch: 0.001243
+#======= Fine-tuning on epoch 2 ======= #
+Features extracted in 15.11 seconds
+-----------
+Creating Triplets ...
+Number of classes: 715
+Final Loss Value on Epoch: 0.001337
+#======= Fine-tuning on epoch 3 ======= #
+Features extracted in 15.25 seconds
+-----------
+Creating Triplets ...
+Number of classes: 715
+Final Loss Value on Epoch: 0.001196
+#======= Fine-tuning on epoch 4 ======= #
+Features extracted in 15.02 seconds
+-----------
+Creating Triplets ...
+Number of classes: 715
+Final Loss Value on Epoch: 0.001077
+Finetuning time: 615.33 seconds
+Features extracted in 5.21 seconds
+Features extracted in 23.22 seconds
+Computing CMC and mAP ...
+** Results **
+mAP: 65.14%
+CMC curve
+Rank-1  : 81.60%
+Rank-5  : 90.04%
+Rank-10 : 92.19%
+Rank-20 : 93.85%
+Iteration time: 784.07 seconds
+###============ Iteration number 49/50 ============###
+GPU MONTAGEM	16.090812
+GPU ORDENACAO	4.235292
+GPU OPTICS	64.444078
+GPU TOTAL	87.389003
+
+Features extracted in 22.51 seconds
+Running OPTICS script ...
+0.20 clusters with one camera were removed
+Clustering and Filtering time: 105.52 seconds
+Ratio of reliable data from target: 0.632308
+#======= Fine-tuning on epoch 0 ======= #
+Features extracted in 14.73 seconds
+-----------
+Creating Triplets ...
+Number of classes: 720
+Final Loss Value on Epoch: 0.001603
+#======= Fine-tuning on epoch 1 ======= #
+Features extracted in 14.66 seconds
+-----------
+Creating Triplets ...
+Number of classes: 720
+Final Loss Value on Epoch: 0.001543
+#======= Fine-tuning on epoch 2 ======= #
+Features extracted in 15.14 seconds
+-----------
+Creating Triplets ...
+Number of classes: 720
+Final Loss Value on Epoch: 0.002000
+#======= Fine-tuning on epoch 3 ======= #
+Features extracted in 15.34 seconds
+-----------
+Creating Triplets ...
+Number of classes: 720
+Final Loss Value on Epoch: 0.001506
+#======= Fine-tuning on epoch 4 ======= #
+Features extracted in 15.47 seconds
+-----------
+Creating Triplets ...
+Number of classes: 720
+Final Loss Value on Epoch: 0.001665
+Finetuning time: 605.27 seconds
+Features extracted in 5.30 seconds
+Features extracted in 23.38 seconds
+Computing CMC and mAP ...
+** Results **
+mAP: 64.60%
+CMC curve
+Rank-1  : 80.70%
+Rank-5  : 89.50%
+Rank-10 : 92.32%
+Rank-20 : 93.85%
+Iteration time: 769.58 seconds
+###============ Iteration number 50/50 ============###
+GPU MONTAGEM	16.175977
+GPU ORDENACAO	4.348805
+GPU OPTICS	65.116405
+GPU TOTAL	88.220955
+
+Features extracted in 22.34 seconds
+Running OPTICS script ...
+0.20 clusters with one camera were removed
+Clustering and Filtering time: 106.16 seconds
+Ratio of reliable data from target: 0.629040
+#======= Fine-tuning on epoch 0 ======= #
+Features extracted in 14.38 seconds
+-----------
+Creating Triplets ...
+Number of classes: 722
+Final Loss Value on Epoch: 0.001385
+#======= Fine-tuning on epoch 1 ======= #
+Features extracted in 14.97 seconds
+-----------
+Creating Triplets ...
+Number of classes: 722
+Final Loss Value on Epoch: 0.001279
+#======= Fine-tuning on epoch 2 ======= #
+Features extracted in 15.30 seconds
+-----------
+Creating Triplets ...
+Number of classes: 722
+Final Loss Value on Epoch: 0.001255
+#======= Fine-tuning on epoch 3 ======= #
+Features extracted in 15.40 seconds
+-----------
+Creating Triplets ...
+Number of classes: 722
+Final Loss Value on Epoch: 0.001351
+#======= Fine-tuning on epoch 4 ======= #
+Features extracted in 15.82 seconds
+-----------
+Creating Triplets ...
+Number of classes: 722
+Final Loss Value on Epoch: 0.001299
+Finetuning time: 618.64 seconds
+Features extracted in 6.23 seconds
+Features extracted in 24.60 seconds
+Computing CMC and mAP ...
+** Results **
+mAP: 64.62%
+CMC curve
+Rank-1  : 80.79%
+Rank-5  : 89.45%
+Rank-10 : 92.06%
+Rank-20 : 93.54%
+Iteration time: 787.48 seconds
+Mean Time to cluster features and filter clusters: 107.63 seconds
+Mean Time to finetune model on an iteration: 547.57 seconds
+Mean Time to take one iteration: 714.92 seconds
+Total Adaptation time: 35746.25 seconds
+Features extracted in 5.84 seconds
+Features extracted in 24.70 seconds
+Computing CMC and mAP ...
+** Results **
+mAP: 64.62%
+CMC curve
+Rank-1  : 80.79%
+Rank-5  : 89.45%
+Rank-10 : 92.06%
+Rank-20 : 93.54%
