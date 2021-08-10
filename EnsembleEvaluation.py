@@ -33,7 +33,6 @@ cudnn.deterministic = True
 
 def main(gpu_ids, source, target, rerank):
 
-	############================ CHANGED ON SIGMOID ON TMUX A -T 2 ================############ 
 	os.environ["CUDA_VISIBLE_DEVICES"] = gpu_ids
 	os.environ["HDF5_USE_FILE_LOCKING"] = "FALSE"
 	print(torch.cuda.device_count())
@@ -79,26 +78,20 @@ def main(gpu_ids, source, target, rerank):
 
 
 	###============ Loading ResNet50 ============###     
-	#path_to_source_model01 = "model_%sTo%s_resnet50_TIFS_selfEnsembleLearning.h5" % (source, target)
-	#path_to_source_model01 = "model_%sTo%s_resnet50_TIFS_fully_unsupervised_xi003_selfEnsembleLearning.h5" % (source, target)
-	path_to_source_model01 = "model_%sTo%s_resnet50_xi005_selfEnsembleLearning.h5" % (source, target)
+	path_to_source_model01 = "model_%sTo%s_resnet50_example_selfEnsembleLearning.h5" % (source, target)
 	
 	model01 = ResNet50ReID(model01)
 	model01.load_state_dict(torch.load(path_to_source_model01, map_location='cuda:0'))
 	
 	###============ Loading OSNet ============###
-	#path_to_source_model02 = "model_%sTo%s_osnet_x1_0_TIFS_selfEnsembleLearning.h5" % (source, target)
-	#path_to_source_model02 = "model_%sTo%s_osnet_x1_0_TIFS_fully_unsupervised_xi003_selfEnsembleLearning.h5" % (source, target)
-	path_to_source_model02 = "model_%sTo%s_osnet_x1_0_xi005_selfEnsembleLearning.h5" % (source, target)
+	path_to_source_model02 = "model_%sTo%s_osnet_x1_0_example_selfEnsembleLearning.h5" % (source, target)
 
 	state_dict02 = torch.load(path_to_source_model02, map_location='cuda:0')
 	model02 = OSNETReID(model02)
 	model02.load_state_dict(state_dict02)
 
 	###============ Loading Denset121 ============###
-	#path_to_source_model03 = "model_%sTo%s_densenet121_TIFS_selfEnsembleLearning.h5" % (source, target)
-	#path_to_source_model03 = "model_%sTo%s_densenet121_TIFS_fully_unsupervised_xi003_selfEnsembleLearning.h5" % (source, target)
-	path_to_source_model03 = "model_%sTo%s_densenet121_xi005_selfEnsembleLearning.h5" % (source, target)
+	path_to_source_model03 = "model_%sTo%s_densenet121_example_selfEnsembleLearning.h5" % (source, target)
 
 	model03 = DenseNet121ReID(model03)
 	model03.load_state_dict(torch.load(path_to_source_model03, map_location='cuda:0'))
