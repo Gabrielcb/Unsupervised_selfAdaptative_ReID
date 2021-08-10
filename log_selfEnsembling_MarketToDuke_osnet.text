@@ -59,7 +59,7 @@ Validating Model Result on Duke ...
 Features extracted in 5.26 seconds
 Features extracted in 24.41 seconds
 Computing CMC and mAP ...
-** Results **
+** Results **           # Same of the results reported on Table V on "OSNet (fusion)" in Market -> Duke scenario on paper
 mAP: 67.25%
 CMC curve
 Rank-1  : 82.05%
