@@ -17,11 +17,10 @@ OBS: Different hardware or library versions might result in different results pu
 
 ## Environment setup 
 
-1. Download the available docker image and start the container on iteration mode by following command:
-2. After that, download the Torchreid library from [here](https://github.com/KaiyangZhou/deep-person-reid)
-3. Go to "deep-person-reid" directory: `cd deep-person-reid/`
-4. Execute the following command to meet libraries requirements: `pip install -r requirements.txt`
-5. Execute `python setup.py install` to install the library
+1. Download the Torchreid library from [here](https://github.com/KaiyangZhou/deep-person-reid)
+2. Go to "deep-person-reid" directory: `cd deep-person-reid/`
+3. Execute the following command to meet libraries requirements: `pip install -r requirements.txt`
+4. Execute `python setup.py install` to install the library
 
 The other libraries can be installed by `pip` or directly from the respective website
 
