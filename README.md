@@ -1,5 +1,4 @@
 # Unsupervised and self-adaptative techniques for cross-domain person re-identification
-This repository implements the published algorithm on IEEE Transaction on Information Forensics and Security Journal about Cross-Domain Person Re-Identification.
 
 The following libraries must be downloaded:
 
